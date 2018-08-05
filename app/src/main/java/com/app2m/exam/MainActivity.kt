@@ -77,7 +77,7 @@ class MainActivity : AppCompatActivity() {
                                         }
                                     }
                                     XmlPullParser.END_TAG -> {
-                                        if ("correctResponse" == xmlParser.name){
+                                        if ("correctResponse" == xmlParser.name) {
                                             return results
                                         }
                                     }
