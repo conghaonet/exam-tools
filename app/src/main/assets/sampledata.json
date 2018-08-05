@@ -1,0 +1,6896 @@
+[{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "219bdba8-03b5-43fa-9d1a-20aea4367498",
+	"type": 201,
+	"content": {
+		"identifier": "219bdba8-03b5-43fa-9d1a-20aea4367498",
+		"title": "应用框架-main组件适用角色是",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>应用框架-main组件适用角色是</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>开发人员</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>产品配置人员</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>开发经理</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>技术支持</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/mainbig.xml.jpg?v=1533181395687",
+			"question_small": "${ref-path}/edu/esp/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/mainbig.xml.jpg?v=1533181395687"
+		}
+	},
+	"source": {
+		"identifier": "219bdba8-03b5-43fa-9d1a-20aea4367498",
+		"title": "应用框架-main组件适用角色是",
+		"global_title": {
+			"zh-CN": "应用框架-main组件适用角色是"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>应用框架-main组件适用角色是</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>应用框架-main组件适用角色是</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/mainbig.xml.jpg?v=1533181395687",
+			"question_small": "${ref-path}/edu/esp/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/mainbig.xml.jpg?v=1533181395687"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "eaad3d5fe1f66f6b073c622eef757cf5"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "56c03184-c1f4-4412-b06f-7b89a9f626a8",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "d2bcfd12-c868-42a5-a9d3-551f92574f61",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "de08377d-d624-472b-baca-a3443660d0b9",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:43:07.745+0800",
+			"last_update": "2018-08-02T16:12:37.610+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4246,
+				"location": "${ref-path}/edu/esp/packages/questions/219bdba8-03b5-43fa-9d1a-20aea4367498/219bdba8-03b5-43fa-9d1a-20aea4367498_default.zip",
+				"requirements": [],
+				"md5": "f6a1ff0e17d00d83a5f206094159c3f2",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4246,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4246,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/219bdba8-03b5-43fa-9d1a-20aea4367498.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "8d45bc21-ac36-4cad-9b30-bf435c992c6d",
+	"type": 201,
+	"content": {
+		"identifier": "8d45bc21-ac36-4cad-9b30-bf435c992c6d",
+		"title": "关系认证中建立关系说法正常的是（）",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>关系认证中建立关系说法正常的是（）</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>只能建立情侣关系</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>只能建立师徒关系</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>只能建立闺蜜关系</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>无限制</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/mainbig.xml_1533181401617.jpg?v=1533181401561",
+			"question_small": "${ref-path}/edu/esp/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/mainbig.xml_1533181401617.jpg?v=1533181401561"
+		}
+	},
+	"source": {
+		"identifier": "8d45bc21-ac36-4cad-9b30-bf435c992c6d",
+		"title": "关系认证中建立关系说法正常的是（）",
+		"global_title": {
+			"zh-CN": "关系认证中建立关系说法正常的是（）"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>关系认证中建立关系说法正常的是（）</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>关系认证中建立关系说法正常的是（）</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/mainbig.xml_1533181401617.jpg?v=1533181401561",
+			"question_small": "${ref-path}/edu/esp/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/mainbig.xml_1533181401617.jpg?v=1533181401561"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "7ba4bce95b95a8b8d7369d23f819cd37"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "41c99698-725d-4266-8210-68f3003b2898",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "43546929-4a4a-4a6a-8c21-6afb5c864fee",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "99b96629-18de-4a2f-a60e-228601c3031e",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:43:15.373+0800",
+			"last_update": "2018-08-02T16:12:36.746+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4085,
+				"location": "${ref-path}/edu/esp/packages/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d/8d45bc21-ac36-4cad-9b30-bf435c992c6d_default.zip",
+				"requirements": [],
+				"md5": "b97d454ad3575b8a22f6c82f8c6cf91f",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4085,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4085,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8d45bc21-ac36-4cad-9b30-bf435c992c6d.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "6e0abdeb-fc80-4793-964c-dc8adce6fdbb",
+	"type": 201,
+	"content": {
+		"identifier": "6e0abdeb-fc80-4793-964c-dc8adce6fdbb",
+		"title": "运动应用不支持下面哪种方式查看数据记录（）",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>运动应用不支持下面哪种方式查看数据记录（）</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>按运动查看</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>按日历查看</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>查看好友记录</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>查看公司任意同事的记录</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6e0abdeb-fc80-4793-964c-dc8adce6fdbb.pkg/mainbig.xml.jpg?v=1533181430806",
+			"question_small": "${ref-path}/edu/esp/questions/6e0abdeb-fc80-4793-964c-dc8adce6fdbb.pkg/mainbig.xml.jpg?v=1533181430806"
+		}
+	},
+	"source": {
+		"identifier": "6e0abdeb-fc80-4793-964c-dc8adce6fdbb",
+		"title": "运动应用不支持下面哪种方式查看数据记录（）",
+		"global_title": {
+			"zh-CN": "运动应用不支持下面哪种方式查看数据记录（）"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>运动应用不支持下面哪种方式查看数据记录（）</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>运动应用不支持下面哪种方式查看数据记录（）</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6e0abdeb-fc80-4793-964c-dc8adce6fdbb.pkg/mainbig.xml.jpg?v=1533181430806",
+			"question_small": "${ref-path}/edu/esp/questions/6e0abdeb-fc80-4793-964c-dc8adce6fdbb.pkg/mainbig.xml.jpg?v=1533181430806"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "c3a96bac83cd5cc5cf41ccda62b39513"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "0c731d9b-6cf3-4c97-af50-47046fa426b1",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "56c25975-6f7d-4a22-a1d8-7d467b1c1bf4",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "e7ac065a-d285-4a8c-8814-9707098b16da",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:43:35.650+0800",
+			"last_update": "2018-08-02T16:12:33.902+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4233,
+				"location": "${ref-path}/edu/esp/packages/questions/6e0abdeb-fc80-4793-964c-dc8adce6fdbb/6e0abdeb-fc80-4793-964c-dc8adce6fdbb_default.zip",
+				"requirements": [],
+				"md5": "f7c5b0c1696899f0423620a7d93cfd23",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4233,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e0abdeb-fc80-4793-964c-dc8adce6fdbb.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e0abdeb-fc80-4793-964c-dc8adce6fdbb.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4233,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e0abdeb-fc80-4793-964c-dc8adce6fdbb.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "da490695-8626-4649-a9bd-9cbdd0c4a7cc",
+	"type": 201,
+	"content": {
+		"identifier": "da490695-8626-4649-a9bd-9cbdd0c4a7cc",
+		"title": "音视频会议最多可以同时几个人参加？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>音视频会议最多可以同时几个人参加？</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>2</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>3</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>4</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>5</span><span>  </span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/mainbig.xml.jpg?v=1533181441751",
+			"question_small": "${ref-path}/edu/esp/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/mainbig.xml.jpg?v=1533181441751"
+		}
+	},
+	"source": {
+		"identifier": "da490695-8626-4649-a9bd-9cbdd0c4a7cc",
+		"title": "音视频会议最多可以同时几个人参加？",
+		"global_title": {
+			"zh-CN": "音视频会议最多可以同时几个人参加？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>音视频会议最多可以同时几个人参加？</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>音视频会议最多可以同时几个人参加？</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/mainbig.xml.jpg?v=1533181441751",
+			"question_small": "${ref-path}/edu/esp/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/mainbig.xml.jpg?v=1533181441751"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "d3773ffc896cc5d37f879e35116ab6d3"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "de17ad81-da75-4190-a3a2-82928b464764",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "b2c9393e-0146-4e9b-bbd6-f67ae8d83bbc",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "8862f4fd-9573-431d-b8d1-96034ea00504",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:43:53.354+0800",
+			"last_update": "2018-08-02T16:12:32.521+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4070,
+				"location": "${ref-path}/edu/esp/packages/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc/da490695-8626-4649-a9bd-9cbdd0c4a7cc_default.zip",
+				"requirements": [],
+				"md5": "c82aa902ccf9e38d55ae161ab51e06d8",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4070,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4070,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/da490695-8626-4649-a9bd-9cbdd0c4a7cc.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "487d47ea-c0b7-4b38-870b-393405870edf",
+	"type": 201,
+	"content": {
+		"identifier": "487d47ea-c0b7-4b38-870b-393405870edf",
+		"title": "目前99U微博打赏不支持以下哪种打赏方式？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>目前99U微博打赏不支持以下哪种打赏方式？</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>网龙币</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>积分</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>礼物</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>鲜花</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/mainbig.xml.jpg?v=1533181455217",
+			"question_small": "${ref-path}/edu/esp/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/mainbig.xml.jpg?v=1533181455217"
+		}
+	},
+	"source": {
+		"identifier": "487d47ea-c0b7-4b38-870b-393405870edf",
+		"title": "目前99U微博打赏不支持以下哪种打赏方式？",
+		"global_title": {
+			"zh-CN": "目前99U微博打赏不支持以下哪种打赏方式？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>目前99U微博打赏不支持以下哪种打赏方式？</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>目前99U微博打赏不支持以下哪种打赏方式？</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/mainbig.xml.jpg?v=1533181455217",
+			"question_small": "${ref-path}/edu/esp/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/mainbig.xml.jpg?v=1533181455217"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "5818b0ffc25d8d8e4bcfe0b895f78817"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "01df152b-91a9-447b-ac34-e058a5d6a145",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "d50e7a11-fedc-49f6-9e90-ee6e67566303",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "10a5a062-1b27-417a-85b9-0cef400016e5",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:44:07.612+0800",
+			"last_update": "2018-08-02T16:12:30.882+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4082,
+				"location": "${ref-path}/edu/esp/packages/questions/487d47ea-c0b7-4b38-870b-393405870edf/487d47ea-c0b7-4b38-870b-393405870edf_default.zip",
+				"requirements": [],
+				"md5": "b4fbbed7d34c3f87281d19e12ceb2969",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4082,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4082,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/487d47ea-c0b7-4b38-870b-393405870edf.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "39b05c80-ee1e-4fdc-8acf-9aa4ff23742b",
+	"type": 201,
+	"content": {
+		"identifier": "39b05c80-ee1e-4fdc-8acf-9aa4ff23742b",
+		"title": "红包组件不支持以下哪个平台（）",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>红包组件不支持以下哪个平台（）</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>Android</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>iOS</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>PC</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/mainbig.xml.jpg?v=1533181462614",
+			"question_small": "${ref-path}/edu/esp/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/mainbig.xml.jpg?v=1533181462614"
+		}
+	},
+	"source": {
+		"identifier": "39b05c80-ee1e-4fdc-8acf-9aa4ff23742b",
+		"title": "红包组件不支持以下哪个平台（）",
+		"global_title": {
+			"zh-CN": "红包组件不支持以下哪个平台（）"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>红包组件不支持以下哪个平台（）</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>红包组件不支持以下哪个平台（）</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/mainbig.xml.jpg?v=1533181462614",
+			"question_small": "${ref-path}/edu/esp/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/mainbig.xml.jpg?v=1533181462614"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "3b9af2fb8b6c9d3684655be12a7898b0"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "d49717d0-4b0d-4e69-9af8-f101c579fee2",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "0f80a2db-36cd-46b8-aa91-5e3d146f9266",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "cff17df5-42d7-4ab6-8cf3-7eced0ecfea6",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:44:16.217+0800",
+			"last_update": "2018-08-02T16:12:29.991+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 3973,
+				"location": "${ref-path}/edu/esp/packages/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b_default.zip",
+				"requirements": [],
+				"md5": "78b90b8ee36fcf2306ced496338e324d",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 3973,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 3973,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/39b05c80-ee1e-4fdc-8acf-9aa4ff23742b.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "b461bf8d-0dd8-4789-87be-d7d8cca118be",
+	"type": 201,
+	"content": {
+		"identifier": "b461bf8d-0dd8-4789-87be-d7d8cca118be",
+		"title": "云办公第三方地图组件安卓和iOS分别使用的地图库是？（）",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>云办公第三方地图组件安卓和iOS分别使用的地图库是？（）</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>安卓和iOS 都集成高德</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>安卓和iOS 都集成谷歌</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>安卓、高德，iOS 系统自带地图库</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>安卓、高德和谷歌，iOS 系统自带地图库</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/mainbig.xml.jpg?v=1533181471888",
+			"question_small": "${ref-path}/edu/esp/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/mainbig.xml.jpg?v=1533181471888"
+		}
+	},
+	"source": {
+		"identifier": "b461bf8d-0dd8-4789-87be-d7d8cca118be",
+		"title": "云办公第三方地图组件安卓和iOS分别使用的地图库是？（）",
+		"global_title": {
+			"zh-CN": "云办公第三方地图组件安卓和iOS分别使用的地图库是？（）"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>云办公第三方地图组件安卓和iOS分别使用的地图库是？（）</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>云办公第三方地图组件安卓和iOS分别使用的地图库是？（）</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/mainbig.xml.jpg?v=1533181471888",
+			"question_small": "${ref-path}/edu/esp/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/mainbig.xml.jpg?v=1533181471888"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "3ac1e06881f364ec9b8b2ee0ee843290"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "353a5d66-3cfe-4ab1-8daf-5e7fbb11273d",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "2fe81105-7c5d-4f50-aac9-30638a8ca4c3",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "92d46b5f-0097-4bf1-bb1b-bf12db564be4",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:44:24.285+0800",
+			"last_update": "2018-08-02T16:12:28.898+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4261,
+				"location": "${ref-path}/edu/esp/packages/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be/b461bf8d-0dd8-4789-87be-d7d8cca118be_default.zip",
+				"requirements": [],
+				"md5": "d902c1054078103e77642cee09b7103c",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4261,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4261,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b461bf8d-0dd8-4789-87be-d7d8cca118be.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "4858044c-62cd-4d5e-b17b-5caf89e41946",
+	"type": 201,
+	"content": {
+		"identifier": "4858044c-62cd-4d5e-b17b-5caf89e41946",
+		"title": "以下哪项不是公告组件所依赖的组件？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>以下哪项不是公告组件所依赖的组件？</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>互动</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>IM</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>ES</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>排行榜</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/mainbig.xml.jpg?v=1533181487976",
+			"question_small": "${ref-path}/edu/esp/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/mainbig.xml.jpg?v=1533181487976"
+		}
+	},
+	"source": {
+		"identifier": "4858044c-62cd-4d5e-b17b-5caf89e41946",
+		"title": "以下哪项不是公告组件所依赖的组件？",
+		"global_title": {
+			"zh-CN": "以下哪项不是公告组件所依赖的组件？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>以下哪项不是公告组件所依赖的组件？</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>以下哪项不是公告组件所依赖的组件？</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/mainbig.xml.jpg?v=1533181487976",
+			"question_small": "${ref-path}/edu/esp/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/mainbig.xml.jpg?v=1533181487976"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "cfd536883dffd9937f8d7813c4e411f7"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "7002d8e9-0298-4657-8931-82c102f96997",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "375b79ab-fe0f-4e2e-be41-78dd49ed4ecb",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "70158ac6-6995-4afd-a011-6211ec7b5d4e",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:44:37.668+0800",
+			"last_update": "2018-08-02T15:48:57.902+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 3984,
+				"location": "${ref-path}/edu/esp/packages/questions/4858044c-62cd-4d5e-b17b-5caf89e41946/4858044c-62cd-4d5e-b17b-5caf89e41946_default.zip",
+				"requirements": [],
+				"md5": "7732469c71cb071bb24d65496e051689",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 3984,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 3984,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/4858044c-62cd-4d5e-b17b-5caf89e41946.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "b68b7f6a-05ac-4cdf-a5e0-591a4f1714da",
+	"type": 201,
+	"content": {
+		"identifier": "b68b7f6a-05ac-4cdf-a5e0-591a4f1714da",
+		"title": "以下哪项不是社交动态所依赖的组件？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>以下哪项不是社交动态所依赖的组件？</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>UC</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>IM</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>CS</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>排行榜</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/mainbig.xml.jpg?v=1533181488321",
+			"question_small": "${ref-path}/edu/esp/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/mainbig.xml.jpg?v=1533181488321"
+		}
+	},
+	"source": {
+		"identifier": "b68b7f6a-05ac-4cdf-a5e0-591a4f1714da",
+		"title": "以下哪项不是社交动态所依赖的组件？",
+		"global_title": {
+			"zh-CN": "以下哪项不是社交动态所依赖的组件？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>以下哪项不是社交动态所依赖的组件？</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>以下哪项不是社交动态所依赖的组件？</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/mainbig.xml.jpg?v=1533181488321",
+			"question_small": "${ref-path}/edu/esp/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/mainbig.xml.jpg?v=1533181488321"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "495b066011c1cc61d2a580e121c1bf25"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "327b05a4-5e8e-4df7-82f5-f3d238490a77",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "0372799a-de50-4642-888f-e93b49881563",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "097adc02-58df-4905-b952-9ea2d21e6245",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:44:41.131+0800",
+			"last_update": "2018-08-02T15:48:57.483+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4102,
+				"location": "${ref-path}/edu/esp/packages/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da_default.zip",
+				"requirements": [],
+				"md5": "087efe1b3af3f6ccdbe6868cb176da28",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4102,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4102,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/b68b7f6a-05ac-4cdf-a5e0-591a4f1714da.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "d3a3f27d-4072-44b1-be0a-d19f4d847647",
+	"type": 201,
+	"content": {
+		"identifier": "d3a3f27d-4072-44b1-be0a-d19f4d847647",
+		"title": "云办公ESOP/审批组件WEB端不包含哪些核心功能？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "choice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>云办公ESOP/审批组件WEB端不包含哪些核心功能？</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>审批导出</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>暂存草稿箱</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>复制表单</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>催审</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/mainbig.xml.jpg?v=1533181495822",
+			"question_small": "${ref-path}/edu/esp/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/mainbig.xml.jpg?v=1533181495822"
+		}
+	},
+	"source": {
+		"identifier": "d3a3f27d-4072-44b1-be0a-d19f4d847647",
+		"title": "云办公ESOP/审批组件WEB端不包含哪些核心功能？",
+		"global_title": {
+			"zh-CN": "云办公ESOP/审批组件WEB端不包含哪些核心功能？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>云办公ESOP/审批组件WEB端不包含哪些核心功能？</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>云办公ESOP/审批组件WEB端不包含哪些核心功能？</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/mainbig.xml.jpg?v=1533181495822",
+			"question_small": "${ref-path}/edu/esp/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/mainbig.xml.jpg?v=1533181495822"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "4197140122099913bce74075ad379343"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "304968ba-ec96-4406-926c-2dac5045c294",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "3045bdd8-3223-4547-b4e4-35a2a2d5754e",
+				"taxonpath": null,
+				"taxonname": "单选题",
+				"taxoncode": "$RE0201"
+			}],
+			"mediatype": [{
+				"identifier": "9966017d-f7c7-4e96-a0f3-5b00e26e84bd",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:44:47.239+0800",
+			"last_update": "2018-08-02T15:48:56.752+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4106,
+				"location": "${ref-path}/edu/esp/packages/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647/d3a3f27d-4072-44b1-be0a-d19f4d847647_default.zip",
+				"requirements": [],
+				"md5": "5d8fb940d9883d0b97e1d8d9966f59c4",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4106,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4106,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d3a3f27d-4072-44b1-be0a-d19f4d847647.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "3e601acb-ebdd-4db9-ad37-99a1c1527581",
+	"type": 202,
+	"content": {
+		"identifier": "3e601acb-ebdd-4db9-ad37-99a1c1527581",
+		"title": "报名系统支持以下那几种方式的应用开通（）",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>报名系统支持以下那几种方式的应用开通（）</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>sdp-app-id</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>sdp-app-id + org_id</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>sdp-app-id + org_id + biz_type</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>sdp-app-id + biz_type</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 4,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/mainbig.xml.jpg?v=1533181527573",
+			"question_small": "${ref-path}/edu/esp/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/mainbig.xml.jpg?v=1533181527573"
+		}
+	},
+	"source": {
+		"identifier": "3e601acb-ebdd-4db9-ad37-99a1c1527581",
+		"title": "报名系统支持以下那几种方式的应用开通（）",
+		"global_title": {
+			"zh-CN": "报名系统支持以下那几种方式的应用开通（）"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>报名系统支持以下那几种方式的应用开通（）</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>报名系统支持以下那几种方式的应用开通（）</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/mainbig.xml.jpg?v=1533181527573",
+			"question_small": "${ref-path}/edu/esp/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/mainbig.xml.jpg?v=1533181527573"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "2c29273fa76f14ca1072dcb5b18ea50e"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "1088a44a-6639-4f1f-a871-71029bab71cf",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "1a6225ec-db45-46a9-9d3b-4056f3aef36e",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "8324510d-044e-44fa-a1ce-a8ebeaf7a251",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:45:18.118+0800",
+			"last_update": "2018-08-02T15:48:52.668+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4132,
+				"location": "${ref-path}/edu/esp/packages/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581/3e601acb-ebdd-4db9-ad37-99a1c1527581_default.zip",
+				"requirements": [],
+				"md5": "ac811e1b297cac0c6f31349e5f2b8b69",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4132,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4132,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/3e601acb-ebdd-4db9-ad37-99a1c1527581.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "29618ab7-6491-40bd-ac46-5c3a3f12c39f",
+	"type": 202,
+	"content": {
+		"identifier": "29618ab7-6491-40bd-ac46-5c3a3f12c39f",
+		"title": "关于云盘组件，下列说法正确的有（）",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>关于云盘组件，下列说法正确的有（）</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>云盘属于IM附加服务，提供通用云盘功能接口，为产品提供上传文件、下载的能力</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>云盘可向让用户在产品中进行文件控制管理</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>云盘可以通过转发的形式在应用内部分享</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>云盘可将文件已分享链接的方式在产品外进行分享</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 4,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/mainbig.xml.jpg?v=1533181529781",
+			"question_small": "${ref-path}/edu/esp/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/mainbig.xml.jpg?v=1533181529781"
+		}
+	},
+	"source": {
+		"identifier": "29618ab7-6491-40bd-ac46-5c3a3f12c39f",
+		"title": "关于云盘组件，下列说法正确的有（）",
+		"global_title": {
+			"zh-CN": "关于云盘组件，下列说法正确的有（）"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>关于云盘组件，下列说法正确的有（）</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>关于云盘组件，下列说法正确的有（）</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/mainbig.xml.jpg?v=1533181529781",
+			"question_small": "${ref-path}/edu/esp/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/mainbig.xml.jpg?v=1533181529781"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "8ef1d90473c625709094f9de8615e9b5"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "05cbb74e-79e7-4c52-946e-71d69ae3cc85",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "df45629a-6857-4a4e-8d88-8b7a1cf9f73a",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "66581c5e-47b7-417a-85bd-dba1602dc7a7",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:45:21.420+0800",
+			"last_update": "2018-08-02T15:48:52.151+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4586,
+				"location": "${ref-path}/edu/esp/packages/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f/29618ab7-6491-40bd-ac46-5c3a3f12c39f_default.zip",
+				"requirements": [],
+				"md5": "ec61f811c876862309384e82e2bcc660",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4586,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4586,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/29618ab7-6491-40bd-ac46-5c3a3f12c39f.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "cfe5af4a-7541-49db-8cf5-9f6d0294abc1",
+	"type": 202,
+	"content": {
+		"identifier": "cfe5af4a-7541-49db-8cf5-9f6d0294abc1",
+		"title": "目前直播的播放端可以支持几种平台？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align:justify;\"><span>目前直播的播放端可以支持几种平台？</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align:justify;\"><span>PC</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align:justify;\"><span>Android</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align:justify;\"><span>ios</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align:justify;\"><span>window phone</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "E",
+				"fixed": true,
+				"text": "<div><p style=\"text-align:justify;\"><span>web</span><span>  </span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 5,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/mainbig.xml.jpg?v=1533192861500",
+			"question_small": "${ref-path}/edu/esp/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/mainbig.xml.jpg?v=1533192861500"
+		}
+	},
+	"source": {
+		"identifier": "cfe5af4a-7541-49db-8cf5-9f6d0294abc1",
+		"title": "目前直播的播放端可以支持几种平台？",
+		"global_title": {
+			"zh-CN": "目前直播的播放端可以支持几种平台？"
+		},
+		"description": "<div><p style=\"text-align:justify;\"><span>目前直播的播放端可以支持几种平台？</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align:justify;\"><span>目前直播的播放端可以支持几种平台？</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/mainbig.xml.jpg?v=1533192861500",
+			"question_small": "${ref-path}/edu/esp/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/mainbig.xml.jpg?v=1533192861500"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "672223bfc2f64243da6e2aabd8953826"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "3f43f95d-acaf-47e4-848d-54bb8b4fa73b",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "6ff0dacf-ab3d-41d1-a8cb-5d9f76e187cf",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "aca5cf8f-48dc-47cc-890d-90c95524ef75",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:45:54.761+0800",
+			"last_update": "2018-08-02T15:48:48.033+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4231,
+				"location": "${ref-path}/edu/esp/packages/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1/cfe5af4a-7541-49db-8cf5-9f6d0294abc1_default.zip",
+				"requirements": [],
+				"md5": "0b476727f504ce84775f152b8d4e80a9",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4231,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4231,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/cfe5af4a-7541-49db-8cf5-9f6d0294abc1.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "ed347fb6-640b-4927-982f-11cba44a14f4",
+	"type": 202,
+	"content": {
+		"identifier": "ed347fb6-640b-4927-982f-11cba44a14f4",
+		"title": "IM组件目前支持以下哪些能力？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>IM组件目前支持以下哪些能力？</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>多语言</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>动态换肤</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>私有化部署</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>组织服务</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 4,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/mainbig.xml.jpg?v=1533181574036",
+			"question_small": "${ref-path}/edu/esp/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/mainbig.xml.jpg?v=1533181574036"
+		}
+	},
+	"source": {
+		"identifier": "ed347fb6-640b-4927-982f-11cba44a14f4",
+		"title": "IM组件目前支持以下哪些能力？",
+		"global_title": {
+			"zh-CN": "IM组件目前支持以下哪些能力？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>IM组件目前支持以下哪些能力？</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>IM组件目前支持以下哪些能力？</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/mainbig.xml.jpg?v=1533181574036",
+			"question_small": "${ref-path}/edu/esp/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/mainbig.xml.jpg?v=1533181574036"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "1dc384261fe31bd7153b91150ed53e27"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "9722d8a8-2475-4bd0-805b-30932fa8c875",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "27fa95b3-63b0-4446-a25f-2f8fe3a4f595",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "9feef457-f345-4f7f-907c-fd0d8829d4f6",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:46:04.947+0800",
+			"last_update": "2018-08-02T15:48:46.744+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4109,
+				"location": "${ref-path}/edu/esp/packages/questions/ed347fb6-640b-4927-982f-11cba44a14f4/ed347fb6-640b-4927-982f-11cba44a14f4_default.zip",
+				"requirements": [],
+				"md5": "e296bdff66c95d6ab8c5ee31e52aa158",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4109,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4109,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ed347fb6-640b-4927-982f-11cba44a14f4.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "65dfa03c-a970-44dd-b1e7-c492231a0143",
+	"type": 202,
+	"content": {
+		"identifier": "65dfa03c-a970-44dd-b1e7-c492231a0143",
+		"title": "目前支付组件客户端可支持哪些平台？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>目前支付组件客户端可支持哪些平台？</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>web</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>android</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>iOS</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>PC</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 4,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/mainbig.xml.jpg?v=1533181577457",
+			"question_small": "${ref-path}/edu/esp/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/mainbig.xml.jpg?v=1533181577457"
+		}
+	},
+	"source": {
+		"identifier": "65dfa03c-a970-44dd-b1e7-c492231a0143",
+		"title": "目前支付组件客户端可支持哪些平台？",
+		"global_title": {
+			"zh-CN": "目前支付组件客户端可支持哪些平台？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>目前支付组件客户端可支持哪些平台？</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>目前支付组件客户端可支持哪些平台？</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/mainbig.xml.jpg?v=1533181577457",
+			"question_small": "${ref-path}/edu/esp/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/mainbig.xml.jpg?v=1533181577457"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "b025d7e54db81bc7abb65e01cfb4a697"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "e88920ea-64fb-4177-8298-8d88cc3fb223",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "64c9b6ac-f5bc-44df-a868-2af01128d2f6",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "fe1c6f82-1055-4b21-94c1-fda7855f3372",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:46:10.243+0800",
+			"last_update": "2018-08-02T15:48:46.201+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/65dfa03c-a970-44dd-b1e7-c492231a0143.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "2e82ede5-2bba-4090-81fd-376bdbeb7094",
+	"type": 202,
+	"content": {
+		"identifier": "2e82ede5-2bba-4090-81fd-376bdbeb7094",
+		"title": "目前VIP组件升级有哪些方式？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>目前VIP组件升级有哪些方式？</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>立即升级</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>到期后升级</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 2,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/mainbig.xml.jpg?v=1533181578639",
+			"question_small": "${ref-path}/edu/esp/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/mainbig.xml.jpg?v=1533181578639"
+		}
+	},
+	"source": {
+		"identifier": "2e82ede5-2bba-4090-81fd-376bdbeb7094",
+		"title": "目前VIP组件升级有哪些方式？",
+		"global_title": {
+			"zh-CN": "目前VIP组件升级有哪些方式？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>目前VIP组件升级有哪些方式？</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>目前VIP组件升级有哪些方式？</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/mainbig.xml.jpg?v=1533181578639",
+			"question_small": "${ref-path}/edu/esp/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/mainbig.xml.jpg?v=1533181578639"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "1ec90a7524e7d76f73b23b6d32baee46"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "cc4efe52-2d30-43a2-abe3-a5bf132833b5",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "3dae1b84-f55b-4e3d-8a48-571a924aa6d9",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "d841d234-f7e5-461e-bb4a-5fb96e3e6009",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:46:11.664+0800",
+			"last_update": "2018-08-02T15:48:46.061+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4090,
+				"location": "${ref-path}/edu/esp/packages/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094/2e82ede5-2bba-4090-81fd-376bdbeb7094_default.zip",
+				"requirements": [],
+				"md5": "365e133e6220876c2abf7cf074b581eb",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4090,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4090,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/2e82ede5-2bba-4090-81fd-376bdbeb7094.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "635905b3-e7eb-446b-b13b-124eab42dfb1",
+	"type": 202,
+	"content": {
+		"identifier": "635905b3-e7eb-446b-b13b-124eab42dfb1",
+		"title": "目前抽奖组件支持哪些平台？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>目前抽奖组件支持哪些平台？</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>web端</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>Android</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>iOS</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>PC</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 4,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/mainbig.xml.jpg?v=1533181592425",
+			"question_small": "${ref-path}/edu/esp/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/mainbig.xml.jpg?v=1533181592425"
+		}
+	},
+	"source": {
+		"identifier": "635905b3-e7eb-446b-b13b-124eab42dfb1",
+		"title": "目前抽奖组件支持哪些平台？",
+		"global_title": {
+			"zh-CN": "目前抽奖组件支持哪些平台？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>目前抽奖组件支持哪些平台？</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>目前抽奖组件支持哪些平台？</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/mainbig.xml.jpg?v=1533181592425",
+			"question_small": "${ref-path}/edu/esp/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/mainbig.xml.jpg?v=1533181592425"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "beb9be4a978e3eaba4f6ac8741c6b607"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "dbc41059-7e25-48dd-9d26-567906abe982",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "dea8cd80-bcb5-4c22-9dc0-1721e50dd99c",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "a7895e81-d7ea-4ab7-a69e-8277524d2932",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:46:24.953+0800",
+			"last_update": "2018-08-02T15:48:44.800+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4048,
+				"location": "${ref-path}/edu/esp/packages/questions/635905b3-e7eb-446b-b13b-124eab42dfb1/635905b3-e7eb-446b-b13b-124eab42dfb1_default.zip",
+				"requirements": [],
+				"md5": "e158994cf23f65137b1dee84dc6ef0c7",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4048,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4048,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/635905b3-e7eb-446b-b13b-124eab42dfb1.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "ddaee045-7b63-4f3c-a139-b458bbc248c0",
+	"type": 202,
+	"content": {
+		"identifier": "ddaee045-7b63-4f3c-a139-b458bbc248c0",
+		"title": "产品名录组件创建产品时支持哪些方式（）。",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>产品名录组件创建产品时支持哪些方式（）。</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>手动输入</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>扫码输入</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>拍照输入</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>文件导入</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 4,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/mainbig.xml.jpg?v=1533181630181",
+			"question_small": "${ref-path}/edu/esp/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/mainbig.xml.jpg?v=1533181630181"
+		}
+	},
+	"source": {
+		"identifier": "ddaee045-7b63-4f3c-a139-b458bbc248c0",
+		"title": "产品名录组件创建产品时支持哪些方式（）。",
+		"global_title": {
+			"zh-CN": "产品名录组件创建产品时支持哪些方式（）。"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>产品名录组件创建产品时支持哪些方式（）。</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>产品名录组件创建产品时支持哪些方式（）。</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/mainbig.xml.jpg?v=1533181630181",
+			"question_small": "${ref-path}/edu/esp/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/mainbig.xml.jpg?v=1533181630181"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "f591414b016fea66dc16d39fc9b599a7"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "3100aeab-a44c-44a1-ace0-0e221a90e281",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "605f254f-558e-408e-8363-a6abf3f5d0b1",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "534c7d69-f040-47f7-a48b-cedc73a884a7",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:47:01.584+0800",
+			"last_update": "2018-08-02T15:48:40.700+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4211,
+				"location": "${ref-path}/edu/esp/packages/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0/ddaee045-7b63-4f3c-a139-b458bbc248c0_default.zip",
+				"requirements": [],
+				"md5": "64a48b48f8879d317d1c49ac04880591",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4211,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4211,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ddaee045-7b63-4f3c-a139-b458bbc248c0.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6",
+	"type": 202,
+	"content": {
+		"identifier": "6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6",
+		"title": "以下哪些是监控位置共享中管理员可进行的操作？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>以下哪些是监控位置共享中管理员可进行的操作？</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>增减监控人员</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>编辑监控人员信息</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>启用/禁用指定人员监控状态</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "D",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>向指定用户发送提醒信息</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 4,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/mainbig.xml.jpg?v=1533181645286",
+			"question_small": "${ref-path}/edu/esp/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/mainbig.xml.jpg?v=1533181645286"
+		}
+	},
+	"source": {
+		"identifier": "6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6",
+		"title": "以下哪些是监控位置共享中管理员可进行的操作？",
+		"global_title": {
+			"zh-CN": "以下哪些是监控位置共享中管理员可进行的操作？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>以下哪些是监控位置共享中管理员可进行的操作？</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>以下哪些是监控位置共享中管理员可进行的操作？</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/mainbig.xml.jpg?v=1533181645286",
+			"question_small": "${ref-path}/edu/esp/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/mainbig.xml.jpg?v=1533181645286"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "f47faa3cbdfd709f7ff524dec7f809f9"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "3b790354-1f84-4a1f-89df-59ae405cb1f7",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "edfe3540-3c43-4793-b815-5c7959d61461",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "8b8152b3-fcf7-4b25-acc0-576ce0e95230",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:47:16.657+0800",
+			"last_update": "2018-08-02T15:48:38.742+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4289,
+				"location": "${ref-path}/edu/esp/packages/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6_default.zip",
+				"requirements": [],
+				"md5": "30177cda8f85e49c80960a8ca6721866",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4289,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4289,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e4cd2d3-77e1-41c2-be32-81f99fc6bcf6.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "1315a093-3076-42a0-b977-547003581ea6",
+	"type": 202,
+	"content": {
+		"identifier": "1315a093-3076-42a0-b977-547003581ea6",
+		"title": "LBS组件目前支持哪些功能？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "multiplechoice",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>LBS组件目前支持哪些功能？</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "A",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>根据经纬度查看位置</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "B",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>选址当前位置</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "C",
+				"fixed": true,
+				"text": "<div><p style=\"text-align: justify;\"><span>位置共享</span></p></div>",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 3,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": true
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/mainbig.xml.jpg?v=1533181668455",
+			"question_small": "${ref-path}/edu/esp/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/mainbig.xml.jpg?v=1533181668455"
+		}
+	},
+	"source": {
+		"identifier": "1315a093-3076-42a0-b977-547003581ea6",
+		"title": "LBS组件目前支持哪些功能？",
+		"global_title": {
+			"zh-CN": "LBS组件目前支持哪些功能？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>LBS组件目前支持哪些功能？</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>LBS组件目前支持哪些功能？</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/mainbig.xml.jpg?v=1533181668455",
+			"question_small": "${ref-path}/edu/esp/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/mainbig.xml.jpg?v=1533181668455"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "a488c326deb678f4fe98a6d6add944ee"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "861dfd5f-499a-4d9b-8962-ad5ce15372e6",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "beff30a9-8ce5-4f80-97b6-cf27ff4e88d0",
+				"taxonpath": null,
+				"taxonname": "多选题",
+				"taxoncode": "$RE0202"
+			}],
+			"mediatype": [{
+				"identifier": "51ec1715-0093-4cea-9108-d02b58e68c18",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:47:43.118+0800",
+			"last_update": "2018-08-02T15:48:36.117+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4085,
+				"location": "${ref-path}/edu/esp/packages/questions/1315a093-3076-42a0-b977-547003581ea6/1315a093-3076-42a0-b977-547003581ea6_default.zip",
+				"requirements": [],
+				"md5": "b67b74fc1cee5934d481fda13ed91585",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4085,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4085,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1315a093-3076-42a0-b977-547003581ea6.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388",
+	"type": 203,
+	"content": {
+		"identifier": "6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388",
+		"title": "时间配置支持农历和公历的两种日期类型。",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>时间配置支持农历和公历的两种日期类型。</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/mainbig.xml.jpg?v=1533181701141",
+			"question_small": "${ref-path}/edu/esp/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/mainbig.xml.jpg?v=1533181701141"
+		}
+	},
+	"source": {
+		"identifier": "6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388",
+		"title": "时间配置支持农历和公历的两种日期类型。",
+		"global_title": {
+			"zh-CN": "时间配置支持农历和公历的两种日期类型。"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>时间配置支持农历和公历的两种日期类型。</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>时间配置支持农历和公历的两种日期类型。</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/mainbig.xml.jpg?v=1533181701141",
+			"question_small": "${ref-path}/edu/esp/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/mainbig.xml.jpg?v=1533181701141"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "010578aeb7ab9e54b19374ba9c0b9443"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "243a02a9-fb59-43f4-82bd-aa81f5e47c26",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "8d629585-9414-4243-a6ae-2555150e59ec",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "3be25240-f3dd-4635-84ff-d42977a2a098",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:48:13.944+0800",
+			"last_update": "2018-08-02T15:44:32.510+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 3954,
+				"location": "${ref-path}/edu/esp/packages/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388_default.zip",
+				"requirements": [],
+				"md5": "553f92a465c8dbd69df84427e89a9ed2",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 3954,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 3954,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6b51c30f-0cf7-43d7-8eb0-3f2ab9d8a388.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4",
+	"type": 203,
+	"content": {
+		"identifier": "ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4",
+		"title": "爽约的男生下次还会出现在该女生选择列表中。",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>爽约的男生下次还会出现在该女生选择列表中。</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/mainbig.xml.jpg?v=1533181734912",
+			"question_small": "${ref-path}/edu/esp/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/mainbig.xml.jpg?v=1533181734912"
+		}
+	},
+	"source": {
+		"identifier": "ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4",
+		"title": "爽约的男生下次还会出现在该女生选择列表中。",
+		"global_title": {
+			"zh-CN": "爽约的男生下次还会出现在该女生选择列表中。"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>爽约的男生下次还会出现在该女生选择列表中。</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>爽约的男生下次还会出现在该女生选择列表中。</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/mainbig.xml.jpg?v=1533181734912",
+			"question_small": "${ref-path}/edu/esp/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/mainbig.xml.jpg?v=1533181734912"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "e6138ef610575ae6ab4905897ead7818"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "abe70484-38b3-4a19-bdc3-7dab85fa7a27",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "7b7eaeeb-06ba-4424-9706-383608689497",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "7bb555a5-6e1f-4c27-99ae-8a762fbb31b0",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:48:47.889+0800",
+			"last_update": "2018-08-02T15:44:28.366+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4168,
+				"location": "${ref-path}/edu/esp/packages/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4_default.zip",
+				"requirements": [],
+				"md5": "dae507a2637d8bebcc93efd61e796a7b",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4168,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4168,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/ce44e3ff-78b9-4ac4-8649-a7130aa5d6c4.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "d07ab8ef-f547-427c-b563-c424e3657e9f",
+	"type": 203,
+	"content": {
+		"identifier": "d07ab8ef-f547-427c-b563-c424e3657e9f",
+		"title": "pc端99u没有使用到用户信息配置。",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>pc端99u没有使用到用户信息配置。</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/mainbig.xml.jpg?v=1533181747701",
+			"question_small": "${ref-path}/edu/esp/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/mainbig.xml.jpg?v=1533181747701"
+		}
+	},
+	"source": {
+		"identifier": "d07ab8ef-f547-427c-b563-c424e3657e9f",
+		"title": "pc端99u没有使用到用户信息配置。",
+		"global_title": {
+			"zh-CN": "pc端99u没有使用到用户信息配置。"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>pc端99u没有使用到用户信息配置。</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>pc端99u没有使用到用户信息配置。</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/mainbig.xml.jpg?v=1533181747701",
+			"question_small": "${ref-path}/edu/esp/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/mainbig.xml.jpg?v=1533181747701"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "253a00a2ef8544821c59cb0ce2e95b98"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "46d59bd5-d467-4a1c-b17f-8c4235054fa1",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "d1627a5b-9fc3-48a0-8c6a-8d21b38de1e0",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "421c93f8-1250-4d1c-b544-878692bb12ef",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:49:00.780+0800",
+			"last_update": "2018-08-02T15:44:26.906+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d07ab8ef-f547-427c-b563-c424e3657e9f.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54",
+	"type": 203,
+	"content": {
+		"identifier": "6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54",
+		"title": "访问论坛必须登录，不支持游客访问。",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>访问论坛必须登录，不支持游客访问。</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/mainbig.xml.jpg?v=1533181785664",
+			"question_small": "${ref-path}/edu/esp/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/mainbig.xml.jpg?v=1533181785664"
+		}
+	},
+	"source": {
+		"identifier": "6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54",
+		"title": "访问论坛必须登录，不支持游客访问。",
+		"global_title": {
+			"zh-CN": "访问论坛必须登录，不支持游客访问。"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>访问论坛必须登录，不支持游客访问。</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>访问论坛必须登录，不支持游客访问。</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/mainbig.xml.jpg?v=1533181785664",
+			"question_small": "${ref-path}/edu/esp/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/mainbig.xml.jpg?v=1533181785664"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "54f788a41a72590fa50e83146152d013"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "8d9433c7-0704-4cd4-8922-39e8cccdd45d",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "7f333df4-cc9b-4e9c-ba39-7d1fb6f59603",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "350d57dd-b518-48cd-98a3-8b34578a7fe9",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:49:37.586+0800",
+			"last_update": "2018-08-02T15:44:23.115+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4031,
+				"location": "${ref-path}/edu/esp/packages/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54_default.zip",
+				"requirements": [],
+				"md5": "d01197c89de6aece0d842bb04cbd3607",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4031,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4031,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6bfb6ed2-f3d8-422d-bf73-9ad8b70fac54.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "d0ed7fc7-ff41-4fe0-a332-cac7a0509f33",
+	"type": 203,
+	"content": {
+		"identifier": "d0ed7fc7-ff41-4fe0-a332-cac7a0509f33",
+		"title": "一日三省组件支持修改历史自省记录？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>一日三省组件支持修改历史自省记录？</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/mainbig.xml.jpg?v=1533181826759",
+			"question_small": "${ref-path}/edu/esp/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/mainbig.xml.jpg?v=1533181826759"
+		}
+	},
+	"source": {
+		"identifier": "d0ed7fc7-ff41-4fe0-a332-cac7a0509f33",
+		"title": "一日三省组件支持修改历史自省记录？",
+		"global_title": {
+			"zh-CN": "一日三省组件支持修改历史自省记录？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>一日三省组件支持修改历史自省记录？</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>一日三省组件支持修改历史自省记录？</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/mainbig.xml.jpg?v=1533181826759",
+			"question_small": "${ref-path}/edu/esp/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/mainbig.xml.jpg?v=1533181826759"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "0efc3465bc82df6a9a353c5d9323606f"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "96e822a7-78da-43cb-b2ab-b6f8078f095b",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "259cab14-0ab6-4f32-9703-581d0e611a35",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "b7a73b58-c82b-45d4-8057-1ed70e774d71",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:50:16.570+0800",
+			"last_update": "2018-08-02T15:44:17.458+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4231,
+				"location": "${ref-path}/edu/esp/packages/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33_default.zip",
+				"requirements": [],
+				"md5": "c682d5b77e10aacf5462dcdec5313662",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4231,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4231,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d0ed7fc7-ff41-4fe0-a332-cac7a0509f33.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "8aa079a5-3e0f-444c-8eb5-495dfddbab13",
+	"type": 203,
+	"content": {
+		"identifier": "8aa079a5-3e0f-444c-8eb5-495dfddbab13",
+		"title": "企业黄页组件中的企业是有根据行业来分类的？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>企业黄页组件中的企业是有根据行业来分类的？</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/mainbig.xml.jpg?v=1533181832028",
+			"question_small": "${ref-path}/edu/esp/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/mainbig.xml.jpg?v=1533181832028"
+		}
+	},
+	"source": {
+		"identifier": "8aa079a5-3e0f-444c-8eb5-495dfddbab13",
+		"title": "企业黄页组件中的企业是有根据行业来分类的？",
+		"global_title": {
+			"zh-CN": "企业黄页组件中的企业是有根据行业来分类的？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>企业黄页组件中的企业是有根据行业来分类的？</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>企业黄页组件中的企业是有根据行业来分类的？</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/mainbig.xml.jpg?v=1533181832028",
+			"question_small": "${ref-path}/edu/esp/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/mainbig.xml.jpg?v=1533181832028"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "3eeeb74b4fc22e6faa4264225be2ecf3"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "6245847a-bc7e-482f-9cd4-7e9e09d6a82d",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "009aa129-7d18-46c6-830d-41b089fe066f",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "f516774d-d33b-4064-881e-4a9e37f9eb00",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:50:24.128+0800",
+			"last_update": "2018-08-02T15:44:16.583+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4031,
+				"location": "${ref-path}/edu/esp/packages/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13/8aa079a5-3e0f-444c-8eb5-495dfddbab13_default.zip",
+				"requirements": [],
+				"md5": "2ec67d05a02cbedd3b10b69cbb2aaad3",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4031,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4031,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/8aa079a5-3e0f-444c-8eb5-495dfddbab13.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "d41130dd-5c18-48ca-9c10-fa2001c2f428",
+	"type": 203,
+	"content": {
+		"identifier": "d41130dd-5c18-48ca-9c10-fa2001c2f428",
+		"title": "新建合同可以关联已有产品？",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>新建合同可以关联已有产品？</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/mainbig.xml.jpg?v=1533181834677",
+			"question_small": "${ref-path}/edu/esp/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/mainbig.xml.jpg?v=1533181834677"
+		}
+	},
+	"source": {
+		"identifier": "d41130dd-5c18-48ca-9c10-fa2001c2f428",
+		"title": "新建合同可以关联已有产品？",
+		"global_title": {
+			"zh-CN": "新建合同可以关联已有产品？"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>新建合同可以关联已有产品？</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>新建合同可以关联已有产品？</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/mainbig.xml.jpg?v=1533181834677",
+			"question_small": "${ref-path}/edu/esp/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/mainbig.xml.jpg?v=1533181834677"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "fadeb258eb10fe189c1367143d5d98c0"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "3492a795-0e73-48b4-98ad-9324ee9292bf",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "424930ca-1f0f-49bc-8345-fda7d55ca6b0",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "f72305db-041c-443b-9eed-7e34abcc1a8b",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:50:27.904+0800",
+			"last_update": "2018-08-02T15:44:16.177+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 3853,
+				"location": "${ref-path}/edu/esp/packages/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428/d41130dd-5c18-48ca-9c10-fa2001c2f428_default.zip",
+				"requirements": [],
+				"md5": "612eaa76bac815db9517052779c8639d",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 3853,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 3853,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/d41130dd-5c18-48ca-9c10-fa2001c2f428.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "1efe92dd-e6ce-45d4-a97c-2282831275f0",
+	"type": 203,
+	"content": {
+		"identifier": "1efe92dd-e6ce-45d4-a97c-2282831275f0",
+		"title": "访问新闻必须登录，不支持游客访问。",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>访问新闻必须登录，不支持游客访问。</span><span>  </span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/mainbig.xml.jpg?v=1533181840988",
+			"question_small": "${ref-path}/edu/esp/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/mainbig.xml.jpg?v=1533181840988"
+		}
+	},
+	"source": {
+		"identifier": "1efe92dd-e6ce-45d4-a97c-2282831275f0",
+		"title": "访问新闻必须登录，不支持游客访问。",
+		"global_title": {
+			"zh-CN": "访问新闻必须登录，不支持游客访问。"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>访问新闻必须登录，不支持游客访问。</span><span>  </span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>访问新闻必须登录，不支持游客访问。</span><span>  </span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/mainbig.xml.jpg?v=1533181840988",
+			"question_small": "${ref-path}/edu/esp/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/mainbig.xml.jpg?v=1533181840988"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "7198f59c8005297364da9a2dcf79f375"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "38ae2cd7-e38f-4100-a276-b78f2e9d8859",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "83bd29b3-3c32-4261-a719-1bdc007cd871",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "22b02528-4d4a-4dd0-bacc-e41988816576",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:50:30.587+0800",
+			"last_update": "2018-08-02T15:44:15.941+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4027,
+				"location": "${ref-path}/edu/esp/packages/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0/1efe92dd-e6ce-45d4-a97c-2282831275f0_default.zip",
+				"requirements": [],
+				"md5": "49b61fd50dca0bf9e0534d642aed9b27",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4027,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4027,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/1efe92dd-e6ce-45d4-a97c-2282831275f0.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "6e800320-8cd1-4d74-bd2c-4f54eb1df55c",
+	"type": 203,
+	"content": {
+		"identifier": "6e800320-8cd1-4d74-bd2c-4f54eb1df55c",
+		"title": "悬赏主题在积分不足时候可以任意调高积分。",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>悬赏主题在积分不足时候可以任意调高积分。</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/mainbig.xml.jpg?v=1533181856191",
+			"question_small": "${ref-path}/edu/esp/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/mainbig.xml.jpg?v=1533181856191"
+		}
+	},
+	"source": {
+		"identifier": "6e800320-8cd1-4d74-bd2c-4f54eb1df55c",
+		"title": "悬赏主题在积分不足时候可以任意调高积分。",
+		"global_title": {
+			"zh-CN": "悬赏主题在积分不足时候可以任意调高积分。"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>悬赏主题在积分不足时候可以任意调高积分。</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>悬赏主题在积分不足时候可以任意调高积分。</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/mainbig.xml.jpg?v=1533181856191",
+			"question_small": "${ref-path}/edu/esp/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/mainbig.xml.jpg?v=1533181856191"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "cbdc4d148d38b0809f70ff3f8c7644fe"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "079d3553-2441-40f4-9b54-9584c828fca7",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "0aba2905-de7c-4437-a526-28b0fe6b3ba5",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "782e9458-ce4f-40e9-9300-98211a43f43c",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:50:47.266+0800",
+			"last_update": "2018-08-02T15:44:14.191+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4230,
+				"location": "${ref-path}/edu/esp/packages/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c/6e800320-8cd1-4d74-bd2c-4f54eb1df55c_default.zip",
+				"requirements": [],
+				"md5": "4ea136141319b4b36a538103f350e935",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/main.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4230,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4230,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/6e800320-8cd1-4d74-bd2c-4f54eb1df55c.pkg/item.xml",
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+},
+{
+	"@class": "com.nd.elearning.sdk.resource.gateway.v2.bean.question.QuestionVo",
+	"id": "56ce1839-54e8-4502-ad50-38ed847120bc",
+	"type": 203,
+	"content": {
+		"identifier": "56ce1839-54e8-4502-ad50-38ed847120bc",
+		"title": "云办公工作台查看全部应用包括通用版及99U版。",
+		"label": "",
+		"adaptive": false,
+		"time_dependent": false,
+		"responses": [],
+		"items": [{
+			"type": "judge",
+			"raw": false,
+			"response_identifier": "RESPONSE_1-1",
+			"prompt": "<div><p style=\"text-align: justify;\"><span>云办公工作台查看全部应用包括通用版及99U版</span><span>  </span><span>。</span></p></div>",
+			"shuffle": false,
+			"choices": [{
+				"identifier": "YES",
+				"fixed": true,
+				"text": "是",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			},
+			{
+				"identifier": "NO",
+				"fixed": true,
+				"text": "否",
+				"group_id": "",
+				"correct": false,
+				"match_max": 1
+			}],
+			"object": {
+				"type": "image/png",
+				"width": "1000",
+				"height": "600",
+				"params": {
+					
+				}
+			},
+			"gap_imgs": [],
+			"associable_hotspots": [],
+			"titles": [],
+			"options": [],
+			"min_choices": 0,
+			"max_choices": 1,
+			"rows": 1,
+			"columns": 1,
+			"children": [],
+			"multiple": false
+		}],
+		"feedbacks": [{
+			"identifier": "showAnswer",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		},
+		{
+			"identifier": "showHint",
+			"show_hide": "show",
+			"content": "",
+			"sequence": "1",
+			"outcome_identifier": "FEEDBACK"
+		}],
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/mainbig.xml.jpg?v=1533181866918",
+			"question_small": "${ref-path}/edu/esp/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/mainbig.xml.jpg?v=1533181866918"
+		}
+	},
+	"source": {
+		"identifier": "56ce1839-54e8-4502-ad50-38ed847120bc",
+		"title": "云办公工作台查看全部应用包括通用版及99U版。",
+		"global_title": {
+			"zh-CN": "云办公工作台查看全部应用包括通用版及99U版。"
+		},
+		"description": "<div><p style=\"text-align: justify;\"><span>云办公工作台查看全部应用包括通用版及99U版</span><span>  </span><span>。</span></p></div>\n",
+		"global_description": {
+			"zh-CN": "<div><p style=\"text-align: justify;\"><span>云办公工作台查看全部应用包括通用版及99U版</span><span>  </span><span>。</span></p></div>\n"
+		},
+		"language": "zh-CN",
+		"preview": {
+			"question_big": "${ref-path}/edu/esp/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/mainbig.xml.jpg?v=1533181866918",
+			"question_small": "${ref-path}/edu/esp/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/mainbig.xml.jpg?v=1533181866918"
+		},
+		"tags": [],
+		"global_tags": {
+			"zh-CN": "[]"
+		},
+		"keywords": [],
+		"ndres_code": null,
+		"global_keywords": {
+			"zh-CN": "[]"
+		},
+		"custom_properties": {
+			"json_md5": "15950b52b5814b9c88e3c775f050fcd7"
+		},
+		"ext_properties": {
+			"discrimination": 0.0,
+			"answer": {
+				
+			},
+			"item_content": {
+				
+			},
+			"criterion": {
+				
+			},
+			"score": 0.0,
+			"secrecy": 0,
+			"modified_difficulty": 0.0,
+			"difficulty": 0.0,
+			"modified_discrimination": 0.0,
+			"used_time": 0,
+			"exposal_date": null,
+			"auto_remark": false
+		},
+		"resource_type": null,
+		"categories": {
+			"res_type": [{
+				"identifier": "ffd2809d-6817-4e2d-9fa9-9fc27f586bb3",
+				"taxonpath": null,
+				"taxonname": "试题",
+				"taxoncode": "$RE0200"
+			},
+			{
+				"identifier": "b6e02b16-47b3-4c2b-bec5-9b91a5b4a97c",
+				"taxonpath": null,
+				"taxonname": "判断题",
+				"taxoncode": "$RE0203"
+			}],
+			"mediatype": [{
+				"identifier": "af1a9ca6-8c4e-444f-a5d4-a5f383486e11",
+				"taxonpath": "",
+				"taxonname": "其他媒体类型",
+				"taxoncode": "$F990000"
+			}]
+		},
+		"life_cycle": {
+			"version": "0.1_i_i",
+			"status": "ONLINE",
+			"enable": true,
+			"creator": "100212",
+			"publisher": "NetDragon",
+			"provider": "",
+			"provider_source": "IM题库.docx",
+			"provider_mode": null,
+			"create_time": "2018-08-02T11:50:58.719+0800",
+			"last_update": "2018-08-02T15:44:12.863+0800"
+		},
+		"education_info": {
+			"interactivity": 0,
+			"interactivity_level": 0,
+			"end_user_type": null,
+			"semantic_density": null,
+			"context": null,
+			"age_range": null,
+			"difficulty": "medium",
+			"learning_time": null,
+			"description": {
+				
+			},
+			"global_edu_description": null,
+			"language": "zh_CN"
+		},
+		"tech_info": {
+			"offline": {
+				"format": "application/zip",
+				"size": 4084,
+				"location": "${ref-path}/edu/esp/packages/questions/56ce1839-54e8-4502-ad50-38ed847120bc/56ce1839-54e8-4502-ad50-38ed847120bc_default.zip",
+				"requirements": [],
+				"md5": "00949a103475b5156cb6c66aed3f3385",
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			},
+			"nd_href": {
+				"format": "application/edu.nd-question-editor",
+				"size": 0,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/main.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/main.xml",
+				"printable": false
+			},
+			"href": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4084,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/item.xml",
+				"requirements": [],
+				"md5": null,
+				"secure_key": null,
+				"entry": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/item.xml",
+				"printable": false
+			},
+			"source": {
+				"format": "application/edu.nd-qti-editor",
+				"size": 4084,
+				"location": "${ref-path}/edu/App/3d16491c-899e-4414-b471-597611b60123/questions/56ce1839-54e8-4502-ad50-38ed847120bc.pkg/item.xml",
+				"requirements": null,
+				"md5": null,
+				"secure_key": null,
+				"entry": null,
+				"printable": false
+			}
+		},
+		"copyright": {
+			"has_right": null,
+			"right_start_date": null,
+			"right_end_date": null,
+			"right": null,
+			"description": null,
+			"global_cr_description": {
+				
+			},
+			"author": null
+		}
+	}
+}]

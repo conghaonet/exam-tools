@@ -34,11 +34,11 @@ android {
         suppressWarnings = true
         jvmTarget = '1.8'
     }
+*/
     //@Parcelize 注解需要设置：experimental = true
     androidExtensions {
         experimental = true
     }
-*/
 }
 
 /*
@@ -56,7 +56,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    kapt group: 'com.android.tools.build', name: 'gradle', version: "$gradle_plugin_version"
+    kapt group: 'com.android.databinding', name: 'compiler', version: "$gradle_plugin_version"
     implementation group: 'org.jetbrains.anko', name: 'anko-commons', version: "$anko_version"
-
+    implementation 'com.google.code.gson:gson:2.8.5'
 }
