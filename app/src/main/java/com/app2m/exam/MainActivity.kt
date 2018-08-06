@@ -1,5 +1,7 @@
 package com.app2m.exam
 
+import android.app.Activity
+import android.content.ClipDescription
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.app2m.exam.data.QuestionVo
@@ -13,6 +15,14 @@ import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.StringReader
 import java.net.URL
+import android.content.ClipboardManager
+import android.content.Context
+import android.content.Intent
+import android.util.Log
+
+
+private const val JSON_REQUEST_CODE = 1
+private const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
     private lateinit var questions: List<QuestionVo>
@@ -37,6 +47,24 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
             }
+        }
+        btnClipboard.setOnClickListener {
+            val cm = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+            if(cm.hasPrimaryClip()) {
+                val clip = cm.primaryClip
+                var clipDescription: ClipDescription = clip.description
+                var clipLabel: CharSequence? = clipDescription.label
+                var clipText: CharSequence = clip.getItemAt(0).text
+                toast("label: $clipLabel \ntext: $clipText")
+            } else {
+                toast("ClipboardManager is empty!")
+            }
+        }
+        btnSelectFile.setOnClickListener {
+            var intent = Intent(Intent.ACTION_GET_CONTENT)
+            intent.type = "*/*"
+            intent.addCategory(Intent.CATEGORY_OPENABLE)
+            startActivityForResult(intent, JSON_REQUEST_CODE)
         }
     }
 
@@ -92,5 +120,20 @@ class MainActivity : AppCompatActivity() {
             e.printStackTrace()
         }
         return results
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        when(requestCode) {
+            JSON_REQUEST_CODE -> {
+                when(resultCode) {
+                    Activity.RESULT_OK -> {
+                        val uri = data?.data
+                        Log.d(TAG, "${uri?.scheme.toString()} \n${uri?.path}")
+                        toast("${uri?.scheme.toString()} \n${uri?.path}")
+                    }
+                }
+            }
+        }
     }
 }
