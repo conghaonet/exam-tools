@@ -1,7 +1,7 @@
 package com.app2m.exam
 
 import android.app.Activity
-import android.content.ClipDescription
+import android.content.*
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import com.app2m.exam.data.QuestionVo
@@ -15,9 +15,12 @@ import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.StringReader
 import java.net.URL
-import android.content.ClipboardManager
-import android.content.Context
-import android.content.Intent
+import android.database.Cursor
+import android.net.Uri
+import android.os.Build
+import android.os.Environment
+import android.provider.DocumentsContract
+import android.provider.MediaStore
 import android.util.Log
 
 
@@ -128,12 +131,109 @@ class MainActivity : AppCompatActivity() {
             JSON_REQUEST_CODE -> {
                 when(resultCode) {
                     Activity.RESULT_OK -> {
-                        val uri = data?.data
-                        Log.d(TAG, "${uri?.scheme.toString()} \n${uri?.path}")
-                        toast("${uri?.scheme.toString()} \n${uri?.path}")
+                        data?.data?.let {
+                            Log.d(TAG, "Uri.scheme ==== ${it.scheme}")
+                            Log.d(TAG, "Uri.path ==== ${it.path}")
+                            if("file" == it.scheme) {
+                                toast("path = ${it.path}")
+                            } else if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {//4.4(KitKat)以后的版本
+                                // DocumentProvider
+                                if(DocumentsContract.isDocumentUri(this@MainActivity, it)) {
+                                    // ExternalStorageProvider
+                                    if (isExternalStorageDocument(it)) {
+                                        var docId = DocumentsContract.getDocumentId(it)
+                                        var split = docId.split(":")
+                                        Log.d(TAG, "ExternalStorageProvider file: ${Environment.getExternalStorageDirectory()}/${split[1]}")
+                                    }
+                                    // DownloadsProvider
+                                    else if (isDownloadsDocument(it)) {
+                                        var docId = DocumentsContract.getDocumentId(it)
+                                        var contentUri: Uri = ContentUris.withAppendedId(
+                                                Uri.parse("content://downloads/public_downloads"), docId.toLong())
+                                        var path = getDataColumn(this@MainActivity, contentUri, null, null)
+                                        Log.d(TAG, "DownloadsProvider file: $path")
+                                    }
+                                    // MediaProvider
+                                    else if (isMediaDocument(it)) {
+                                        var docId = DocumentsContract.getDocumentId(it)
+                                        var split = docId.split(":")
+                                        var type = split[0]
+                                        var contentUri: Uri? = null
+                                        when(type) {
+                                            "image" -> {
+                                                contentUri = MediaStore.Images.Media.EXTERNAL_CONTENT_URI
+                                            } "video"-> {
+                                                contentUri = MediaStore.Video.Media.EXTERNAL_CONTENT_URI
+                                            } "audio"-> {
+                                                contentUri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI
+                                            }
+                                        }
+                                        var selection = "_id=?"
+                                        var selectionArgs = arrayOf(split[1])
+                                        contentUri?.let {
+                                            //TODO: 调用系统相册有BUG，待修复
+                                            Log.d(TAG, "MediaProvider file: ${getDataColumn(this@MainActivity, contentUri, selection, selectionArgs)}")
+                                        }
+
+                                    }
+                                }
+                                // MediaStore (and general)
+                                else if("content" == it.scheme) {
+                                    Log.d(TAG, "MediaStore file: ${getDataColumn(this@MainActivity, it, null, null)}")
+                                }
+                            }
+//                            var projections = arrayOf(MediaStore.Images.Media._ID, MediaStore.Images.Media.DATA, MediaStore.Images.Media.DISPLAY_NAME)
+                            var courser: Cursor? = contentResolver.query(it, null, null, null, null)
+                            courser?.let {
+                                it.moveToFirst()
+//                                val idIndex = it.getColumnIndexOrThrow(MediaStore.Images.Media._ID)
+//                                val dataIndex = it.getColumnIndexOrThrow(MediaStore.Images.Media.DATA)
+//                                val displayIndex = it.getColumnIndexOrThrow(MediaStore.Images.Media.DISPLAY_NAME)
+
+                                for (index in 0 until  it.columnCount) {
+                                    Log.d(TAG, "COLUMN_${it.getColumnName(index)} = ${it.getString(index)}")
+                                }
+                            }
+                            courser?.close()
+                        }
                     }
                 }
             }
         }
+    }
+
+    private fun getDataColumn(context: Context, uri: Uri, selection: String?, selectionArgs: Array<String>?) : String {
+        var path = ""
+        val columnData = "_data"
+        val projection = arrayOf(columnData)
+        var cursor: Cursor? = context.contentResolver.query(uri, projection, selection, selectionArgs, null)
+        cursor?.let {
+            it.moveToFirst()
+            val columnIndexData = it.getColumnIndexOrThrow(columnData)
+            path = cursor.getString(columnIndexData)
+            it.close()
+        }
+        return path
+    }
+    /**
+     * @param uri The Uri to check.
+     * @return Whether the Uri authority is ExternalStorageProvider.
+     */
+    private fun isExternalStorageDocument(uri: Uri) : Boolean {
+        return "com.android.externalstorage.documents" == uri.authority
+    }
+    /**
+     * @param uri The Uri to check.
+     * @return Whether the Uri authority is DownloadsProvider.
+     */
+    private fun isDownloadsDocument(uri: Uri) : Boolean {
+        return "com.android.providers.downloads.documents" == uri.authority
+    }
+    /**
+     * @param uri The Uri to check.
+     * @return Whether the Uri authority is MediaProvider.
+     */
+    private fun isMediaDocument(uri: Uri) : Boolean {
+        return "com.android.providers.media.documents" == uri.authority
     }
 }
