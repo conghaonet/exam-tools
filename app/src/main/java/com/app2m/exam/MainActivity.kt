@@ -9,6 +9,7 @@ import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.doAsync
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.toast
 import org.jetbrains.anko.uiThread
 import org.xmlpull.v1.XmlPullParser
@@ -25,6 +26,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        btnMain2Activity.setOnClickListener {
+            startActivity<Main2Activity>()
+        }
         btnQuestionData.setOnClickListener {
             doAsync {
                 assets.open("sampledata.json").bufferedReader().use {
