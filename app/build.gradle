@@ -56,13 +56,15 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
-    kapt group: 'com.android.databinding', name: 'compiler', version: "$gradle_plugin_version"
-    implementation group: 'org.jetbrains.anko', name: 'anko-commons', version: "$anko_version"
-//    implementation group: 'org.jetbrains.anko', name: 'anko-sdk15', version: "0.10.4"
+    kapt "com.android.databinding:compiler:$gradle_plugin_version"
+    implementation "org.jetbrains.anko:anko-commons:$anko_version"
+//    implementation "org.jetbrains.anko:anko-sdk15:0.10.4"
     implementation "org.jetbrains.anko:anko-sdk25:$anko_version"
-    implementation group: 'org.jetbrains.anko', name: 'anko-support-v4', version: "$anko_version"
-    implementation group: 'org.jetbrains.anko', name: 'anko-appcompat-v7', version: "$anko_version"
-    implementation group: 'org.jetbrains.anko', name: 'anko-recyclerview-v7', version: "$anko_version"
-    implementation group: 'org.jetbrains.anko', name: 'anko-design', version: "$anko_version"
+    implementation "org.jetbrains.anko:anko-coroutines:$anko_version"
+    implementation "org.jetbrains.anko:anko-support-v4:$anko_version"
+    implementation "org.jetbrains.anko:anko-appcompat-v7:$anko_version"
+    implementation "org.jetbrains.anko:anko-recyclerview-v7:$anko_version"
+    implementation "org.jetbrains.anko:anko-recyclerview-v7-coroutines:$anko_version"
+    implementation "org.jetbrains.anko:anko-design:$anko_version"
     implementation 'com.google.code.gson:gson:2.8.5'
 }

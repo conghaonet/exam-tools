@@ -2,16 +2,13 @@ package com.app2m.exam
 
 import android.app.Activity
 import android.content.*
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
+import android.widget.Button
+import com.app2m.exam.base.BaseActivity
 import com.app2m.exam.data.QuestionVo
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import kotlinx.android.synthetic.main.activity_main.*
-import org.jetbrains.anko.doAsync
-import org.jetbrains.anko.startActivity
-import org.jetbrains.anko.toast
-import org.jetbrains.anko.uiThread
+import org.jetbrains.anko.*
+import org.jetbrains.anko.support.v4.nestedScrollView
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.StringReader
@@ -21,14 +18,22 @@ import java.net.URL
 private const val JSON_REQUEST_CODE = 1
 private const val TAG = "MainActivity"
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     private lateinit var questions: List<QuestionVo>
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        MainActivityUIaa().setContentView(this)
+
+
+//        setContentView(R.layout.activity_main)
+
+/*
         btnMain2Activity.setOnClickListener {
             startActivity<Main2Activity>()
         }
+*/
+/*
         btnQuestionData.setOnClickListener {
             doAsync {
                 assets.open("sampledata.json").bufferedReader().use {
@@ -48,6 +53,8 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+*/
+/*
         btnClipboard.setOnClickListener {
             val cm = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
             if(cm.hasPrimaryClip()) {
@@ -60,12 +67,15 @@ class MainActivity : AppCompatActivity() {
                 toast("ClipboardManager is empty!")
             }
         }
-        btnSelectFile.setOnClickListener {
-            var intent = Intent(Intent.ACTION_GET_CONTENT)
-            intent.type = "*/*"
-            intent.addCategory(Intent.CATEGORY_OPENABLE)
-            startActivityForResult(intent, JSON_REQUEST_CODE)
-        }
+*/
+
+    }
+    fun openFile(view: View) {
+        var intent = Intent(Intent.ACTION_GET_CONTENT)
+        intent.type = "*/*"
+        intent.addCategory(Intent.CATEGORY_OPENABLE)
+        startActivityForResult(intent, JSON_REQUEST_CODE)
+        (view as Button).text = "CLICKED"
     }
 
     private fun getAnswers() {
@@ -84,7 +94,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun parseXML(result: String): List<String> {
+    fun parseXML(result: String): List<String> {
         var results = ArrayList<String>()
         var factory = XmlPullParserFactory.newInstance()
         var xmlParser = factory.newPullParser()
@@ -124,18 +134,47 @@ class MainActivity : AppCompatActivity() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        when(requestCode) {
-            JSON_REQUEST_CODE -> {
-                when(resultCode) {
-                    Activity.RESULT_OK -> {
-                        data?.let {
-                            var realPath = FileChooser.getRealPath(this@MainActivity, it.data)
-                            toast(realPath)
-                        }
-                    }
-                }
+        if(JSON_REQUEST_CODE == requestCode && Activity.RESULT_OK == resultCode) {
+            data?.let {
+                var realPath = FileChooser.getRealPath(this@MainActivity, it.data)
+                toast(realPath)
             }
         }
     }
+}
 
+class MainActivityUIaa : AnkoComponent<MainActivity> {
+    override fun createView(ui: AnkoContext<MainActivity>) = with(ui) {
+        nestedScrollView {
+            lparams(width = matchParent, height = matchParent)
+            verticalLayout {
+                button("Main2Activity") {
+                    allCaps = false
+                    setOnClickListener {
+                        toast("go to Main2Activity")
+                    }
+                }.lparams(width = matchParent, height = wrapContent)
+
+                button("Read question data") {
+                    allCaps = false
+                }.lparams(width = matchParent, height = wrapContent)
+
+                button {
+                    text = "Clipboard Manager"
+                    allCaps = false
+                }.lparams(width = matchParent, height = wrapContent)
+
+                button {
+                    text = "选择文件"
+                    allCaps = false
+                    //TODO: 应该写为onClick，可能是依赖包缺失
+                    setOnClickListener {
+                        ui.owner.openFile(it)
+                    }
+
+                }.lparams(width = matchParent, height = wrapContent)
+
+            }.lparams(width = matchParent, height = wrapContent)
+        }
+    }
 }

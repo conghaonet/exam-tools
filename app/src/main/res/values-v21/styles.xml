@@ -8,7 +8,4 @@
 		<item name="android:windowSharedElementExitTransition">@android:transition/move</item>
 		<item name="android:navigationBarColor">@color/colorPrimary</item>
 	</style>
-
-	<style name="NotificationText" parent="@android:style/TextAppearance.Material.Notification" />
-	<style name="NotificationTitle" parent="@android:style/TextAppearance.Material.Notification.Title" />
 </resources>

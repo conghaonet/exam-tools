@@ -1,20 +1,13 @@
 <resources>
     <!-- Base theme -->
     <style name="AppTheme.Base.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="android:windowNoTitle">true</item>
         <!-- toolbar（actionbar）颜色 -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <!-- 状态栏颜色 -->
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- Application theme -->
-    <style name="AppTheme.NoActionBar" parent="AppTheme.Base.NoActionBar">
-        <!--<item name="colorAccent">@color/colorAccent</item>-->
-    </style>
-
-    <style name="NotificationText" parent="@android:style/TextAppearance.StatusBar.EventContent" />
-    <style name="NotificationTitle" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+    <style name="AppTheme.NoActionBar" parent="AppTheme.Base.NoActionBar"/>
 
 </resources>
