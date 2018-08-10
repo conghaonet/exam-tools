@@ -10,11 +10,13 @@ import android.os.Environment
 import android.provider.DocumentsContract
 import android.provider.MediaStore
 import android.util.Log
+import org.jetbrains.anko.AnkoLogger
+import org.jetbrains.anko.debug
+import org.jetbrains.anko.info
 import java.io.File
 
-private const val TAG = "FileChooser"
-class FileChooser {
-    companion object {
+class FileUtil {
+    companion object: AnkoLogger {
         fun getRealPath(context: Context, uri: Uri) : String {
             val cr = context.contentResolver
             var realPath = ""
@@ -53,12 +55,12 @@ class FileChooser {
                     } else { realPath = getDataColumn(cr, uri, null, null) }
                 } else { realPath = getDataColumn(cr, uri, null, null) }
             }
-            Log.d(TAG, "realpath ==== $realPath")
+            debug("realpath ==== $realPath")
             return realPath
         }
 
         /**
-         * 查询content真是路径
+         * 查询content真实路径
          */
         private fun getDataColumn(cr: ContentResolver, uri: Uri, selection: String?, selectionArgs: Array<String>?) : String {
             var realPath = ""
@@ -83,41 +85,20 @@ class FileChooser {
             }
             return realPath
         }
-        /**
-         * @param uri The Uri to check.
-         * @return Whether the Uri authority is ExternalStorageProvider.
-         */
-        fun isExternalStorageDocument(uri: Uri) : Boolean {
-            return "com.android.externalstorage.documents" == uri.authority
-        }
-        /**
-         * @param uri The Uri to check.
-         * @return Whether the Uri authority is DownloadsProvider.
-         */
-        fun isDownloadsDocument(uri: Uri) : Boolean {
-            return "com.android.providers.downloads.documents" == uri.authority
-        }
-        /**
-         * @param uri The Uri to check.
-         * @return Whether the Uri authority is MediaProvider.
-         */
-        fun isMediaDocument(uri: Uri) : Boolean {
-            return "com.android.providers.media.documents" == uri.authority
-        }
 
         /**
          * for debug
          */
         private fun printAllColumns(cr: ContentResolver, uri: Uri) {
-            Log.d(TAG, "Uri.scheme ==== ${uri.scheme}")
-            Log.d(TAG, "Uri.path ==== ${uri.path}")
-            Log.d(TAG, "Uri.authority ==== ${uri.authority}")
+            debug("Uri.scheme ==== ${uri.scheme}")
+            debug("Uri.path ==== ${uri.path}")
+            debug("Uri.authority ==== ${uri.authority}")
             var cursor = cr.query(uri, null, null, null, null)
             cursor?.let {
                 if(it.moveToFirst()) {
                     for (colIndex in 0 until it.columnCount) {
                         var colName = it.getColumnName(colIndex)
-                        Log.d(TAG, "COLUMN_${colIndex}_$colName ==== ${it.getString(colIndex)}")
+                        debug("COLUMN_${colIndex}_$colName ==== ${it.getString(colIndex)}")
                     }
                 }
             }
