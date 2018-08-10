@@ -18,11 +18,10 @@ import java.io.File
 import java.io.StringReader
 import java.net.URL
 
-
 private const val JSON_REQUEST_CODE = 1
 
 class MainActivity : BaseActivity(), AnkoLogger {
-    private lateinit var questions: List<QuestionVo>
+    private var questions: List<QuestionVo>? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -42,7 +41,7 @@ class MainActivity : BaseActivity(), AnkoLogger {
                 questions = Gson().fromJson(data.toString(), typeToken)
                 uiThread {
                     getAnswers()
-                    toast("读取题目数据总数：${questions.size}")
+                    toast("读取题目数据总数：${questions?.size}")
                 }
             }
         }
@@ -68,17 +67,19 @@ class MainActivity : BaseActivity(), AnkoLogger {
     }
 
     private fun getAnswers() {
-        doAsync {
-            for(index in questions.indices) {
-                var questionVo = questions[index]
-                var url = questionVo.source.tech_info.source.location
-                url = url.replace(REF_PATH_TAG, REF_PATH, true)
-                val response = URL(url).readText()
-                var correctAnswers = parseXML(response)
-                questionVo.correctResponse = QuestionVo.CorrectResponse(correctAnswers)
-            }
-            uiThread {
-                toast("答案获取完成")
+        questions?.let {
+            doAsync {
+                for(index in it.indices) {
+                    var questionVo = it[index]
+                    var url = questionVo.source.tech_info.source.location
+                    url = url.replace(REF_PATH_TAG, REF_PATH, true)
+                    val response = URL(url).readText()
+                    var correctAnswers = parseXML(response)
+                    questionVo.correctResponse = QuestionVo.CorrectResponse(correctAnswers)
+                }
+                uiThread {
+                    toast("答案获取完成")
+                }
             }
         }
     }
@@ -127,8 +128,13 @@ class MainActivity : BaseActivity(), AnkoLogger {
             data?.data?.let {
                 val realPath = FileUtil.getRealPath(this@MainActivity, it)
                 var file = File(realPath)
-                info ("文件是否存在：${file.exists()}")
-                toast(realPath)
+                doAsync {
+                    questions = file.convert2DataObject()
+                    uiThread {
+                        getAnswers()
+                        toast("读取题目数据总数：${questions?.size}")
+                    }
+                }
             }
         }
     }
