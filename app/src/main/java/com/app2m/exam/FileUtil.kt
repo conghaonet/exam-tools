@@ -16,10 +16,10 @@ import org.jetbrains.anko.info
 import java.io.File
 
 class FileUtil {
-    companion object: AnkoLogger {
-        fun getRealPath(context: Context, uri: Uri) : String {
+    companion object {
+        fun getRealPath(context: Context, uri: Uri) : String? {
             val cr = context.contentResolver
-            var realPath = ""
+            var realPath: String? = null
             printAllColumns(cr, uri)
             if(ContentResolver.SCHEME_FILE == uri.scheme) {
                 realPath = uri.path
@@ -55,7 +55,7 @@ class FileUtil {
                     } else { realPath = getDataColumn(cr, uri, null, null) }
                 } else { realPath = getDataColumn(cr, uri, null, null) }
             }
-            debug("realpath ==== $realPath")
+            Log.d("FileUtil.kt","realpath ==== $realPath")
             return realPath
         }
 
@@ -90,15 +90,15 @@ class FileUtil {
          * for debug
          */
         private fun printAllColumns(cr: ContentResolver, uri: Uri) {
-            debug("Uri.scheme ==== ${uri.scheme}")
-            debug("Uri.path ==== ${uri.path}")
-            debug("Uri.authority ==== ${uri.authority}")
+            Log.d("FileUtil.kt","Uri.scheme ==== ${uri.scheme}")
+            Log.d("FileUtil.kt","Uri.path ==== ${uri.path}")
+            Log.d("FileUtil.kt","Uri.authority ==== ${uri.authority}")
             var cursor = cr.query(uri, null, null, null, null)
             cursor?.let {
                 if(it.moveToFirst()) {
                     for (colIndex in 0 until it.columnCount) {
                         var colName = it.getColumnName(colIndex)
-                        debug("COLUMN_${colIndex}_$colName ==== ${it.getString(colIndex)}")
+                        Log.d("FileUtil.kt","COLUMN_${colIndex}_$colName ==== ${it.getString(colIndex)}")
                     }
                 }
             }

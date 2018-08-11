@@ -18,7 +18,8 @@ import java.io.File
 import java.io.StringReader
 import java.net.URL
 
-private const val JSON_REQUEST_CODE = 1
+private const val JSON_REQUEST_CODE_QUESTIONS = 1
+private const val JSON_REQUEST_CODE_SINGLE_QUESTION = 2
 
 class MainActivity : BaseActivity(), AnkoLogger {
     private var questions: List<QuestionVo>? = null
@@ -50,20 +51,27 @@ class MainActivity : BaseActivity(), AnkoLogger {
         val cm = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         if(cm.hasPrimaryClip()) {
             val clip = cm.primaryClip
-            var clipDescription: ClipDescription = clip.description
-            var clipLabel: CharSequence? = clipDescription.label
-            var clipText: CharSequence = clip.getItemAt(0).text
+            var clipDescription: ClipDescription? = clip?.description
+            var clipLabel: CharSequence? = clipDescription?.label
+            var clipText: CharSequence? = clip?.getItemAt(0)?.text
             toast("label: $clipLabel \ntext: $clipText")
         } else {
             toast("ClipboardManager is empty!")
         }
     }
-    fun openFile(view: View) {
+    fun openFileForQuestions(view: View) {
         var intent = Intent(Intent.ACTION_GET_CONTENT)
         intent.type = "*/*"
         intent.addCategory(Intent.CATEGORY_OPENABLE)
-        startActivityForResult(intent, JSON_REQUEST_CODE)
-        (view as Button).text = "CLICKED"
+        startActivityForResult(intent, JSON_REQUEST_CODE_QUESTIONS)
+        (view as Button).text = "List<QuestionVo>"
+    }
+    fun openFileForSingleQuestion(view: View) {
+        var intent = Intent(Intent.ACTION_GET_CONTENT)
+        intent.type = "*/*"
+        intent.addCategory(Intent.CATEGORY_OPENABLE)
+        startActivityForResult(intent, JSON_REQUEST_CODE_SINGLE_QUESTION)
+        (view as Button).text = "QuestionVo"
     }
 
     private fun getAnswers() {
@@ -124,8 +132,19 @@ class MainActivity : BaseActivity(), AnkoLogger {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if(JSON_REQUEST_CODE == requestCode && Activity.RESULT_OK == resultCode) {
-            data?.data?.let {
+        if(JSON_REQUEST_CODE_QUESTIONS == requestCode && Activity.RESULT_OK == resultCode) {
+            data?.data?.run {
+                FileUtil.getRealPath(this@MainActivity, this)?.let {
+                    var file = File(it)
+                    doAsync {
+                        questions = file.convert2DataObject()
+                        uiThread {
+                            getAnswers()
+                            toast("读取题目数据总数：${questions?.size}")
+                        }
+                    }
+                }
+/*
                 val realPath = FileUtil.getRealPath(this@MainActivity, it)
                 var file = File(realPath)
                 doAsync {
@@ -135,6 +154,29 @@ class MainActivity : BaseActivity(), AnkoLogger {
                         toast("读取题目数据总数：${questions?.size}")
                     }
                 }
+*/
+            }
+        } else if(JSON_REQUEST_CODE_SINGLE_QUESTION == requestCode && Activity.RESULT_OK == resultCode) {
+            data?.data?.run {
+                FileUtil.getRealPath(this@MainActivity, this)?.let {
+                    var file = File(it)
+                    doAsync {
+                        var questionVo = file.convert2DataObject<QuestionVo>()
+                        uiThread {
+                            toast("QuestionVo：${questionVo?.class_name}")
+                        }
+                    }
+                }
+/*
+                val realPath = FileUtil.getRealPath(this@MainActivity, this)
+                var file = File(realPath)
+                doAsync {
+                    var questionVo = file.convert2DataObject<QuestionVo>()
+                    uiThread {
+                        toast("QuestionVo：${questionVo?.class_name}")
+                    }
+                }
+*/
             }
         }
     }
@@ -170,11 +212,20 @@ class MainActivityUI : AnkoComponent<MainActivity>, AnkoLogger {
                 }.lparams(width = matchParent, height = wrapContent)
 
                 button {
-                    text = "选择文件"
+                    text = "选择文件 读取完整试卷(List<QuestionVo>)"
                     allCaps = false
                     //依赖anko-sdk25-coroutines
                     onClick {
-                        ui.owner.openFile(this@button)
+                        ui.owner.openFileForQuestions(this@button)
+                    }
+
+                }.lparams(width = matchParent, height = wrapContent)
+                button {
+                    text = "选择文件 读取单个题目(QuestionVo)"
+                    allCaps = false
+                    //依赖anko-sdk25-coroutines
+                    onClick {
+                        ui.owner.openFileForSingleQuestion(this@button)
                     }
 
                 }.lparams(width = matchParent, height = wrapContent)

@@ -1,20 +1,22 @@
 package com.app2m.exam
 
+import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import java.io.File
 import java.io.IOException
+import java.lang.Exception
 import java.nio.charset.Charset
 
 
 
 fun File.getText(charset: Charset = Charsets.UTF_8, isTrim : Boolean = false) : String? {
-    var text : StringBuilder? = null
+    lateinit var text : StringBuilder
     if(this.exists()) {
-        text = StringBuilder("")
         try {
             this.bufferedReader(charset).use {
                 var line = it.readLine()
+                text = StringBuilder()
                 while (line != null) {
                     if (isTrim) {
                         text.append(line.trim())
@@ -47,13 +49,20 @@ fun<T> File.convert2Json(charset: Charset = Charsets.UTF_8) : T? {
 //只有内联(inline)函数才可以被具体化(reified)
 inline fun<reified T : Any> File.convert2DataObject (charset: Charset = Charsets.UTF_8) : T? {
     val text = this.getText(charset, true)
+    var obj : T? = null
     text?.run {
-        if(startsWith("[") && endsWith("]")) {
-            val typeToken = object : TypeToken<T>() {}.type
-            return Gson().fromJson(text, typeToken)
-        } else if(startsWith("{") && endsWith("}")) {
-            return Gson().fromJson(text, T::class.java)
+        try {
+            if(startsWith("[") && endsWith("]")) {
+                val typeToken = object : TypeToken<T>() {}.type
+                obj =  Gson().fromJson(this, typeToken)
+            } else if(startsWith("{") && endsWith("}")) {
+                obj = Gson().fromJson(this, T::class.java)
+            } else {
+                Log.i("MyExtFun.kt", "不是json数据！！")
+            }
+        } catch (e: Exception) {
+            Log.e("MyExtFun.kt", "json格式错误！！")
         }
     }
-    return null
+    return obj
 }
