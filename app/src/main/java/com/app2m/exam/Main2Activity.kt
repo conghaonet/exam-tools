@@ -4,6 +4,7 @@ import android.graphics.Color
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
+import com.app2m.exam.ui.SwipyRefreshLayoutUI
 import org.jetbrains.anko.*
 
 class Main2Activity : AppCompatActivity() {
@@ -11,7 +12,7 @@ class Main2Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 //        setContentView(R.layout.activity_main2)
-        Main2ActivityUI().setContentView(this)
+        SwipyRefreshLayoutUI<Main2Activity>().setContentView(this)
     }
 
 

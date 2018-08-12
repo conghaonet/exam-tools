@@ -1,8 +1,13 @@
 package com.app2m.exam
 
+import android.app.Application
+import android.support.v7.widget.RecyclerView
 import android.util.Log
+import android.view.ViewManager
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.omadahealth.github.swipyrefreshlayout.library.SwipyRefreshLayout
+import org.jetbrains.anko.custom.ankoView
 import java.io.File
 import java.io.IOException
 import java.lang.Exception
@@ -65,4 +70,10 @@ inline fun<reified T : Any> File.convert2DataObject (charset: Charset = Charsets
         }
     }
     return obj
+}
+
+inline fun ViewManager.swipyRefreshLayout() = swipyRefreshLayout {}
+
+inline fun ViewManager.swipyRefreshLayout(init: SwipyRefreshLayout.() -> Unit): SwipyRefreshLayout {
+    return ankoView({ SwipyRefreshLayout(it) }, theme = 0, init = init)
 }
