@@ -23,10 +23,17 @@ private const val JSON_REQUEST_CODE_SINGLE_QUESTION = 2
 
 class MainActivity : BaseActivity(), AnkoLogger {
     private var questions: List<QuestionVo>? = null
-
+    lateinit var permissionUtils : PermissionUtils
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         MainActivityUI().setContentView(this)
+        permissionUtils = PermissionUtils(this)
+
+
+    }
+
+    override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        permissionUtils.onRequestPermissionsResult(requestCode, permissions, grantResults)
     }
     fun readJsonInAssetsFile() {
         doAsync {
@@ -60,11 +67,13 @@ class MainActivity : BaseActivity(), AnkoLogger {
         }
     }
     fun openFileForQuestions(view: View) {
-        var intent = Intent(Intent.ACTION_GET_CONTENT)
-        intent.type = "*/*"
-        intent.addCategory(Intent.CATEGORY_OPENABLE)
-        startActivityForResult(intent, JSON_REQUEST_CODE_QUESTIONS)
-        (view as Button).text = "List<QuestionVo>"
+        permissionUtils.checkStoragePermission(Runnable {
+            var intent = Intent(Intent.ACTION_GET_CONTENT)
+            intent.type = "*/*"
+            intent.addCategory(Intent.CATEGORY_OPENABLE)
+            startActivityForResult(intent, JSON_REQUEST_CODE_QUESTIONS)
+            (view as Button).text = "List<QuestionVo>"
+        })
     }
     fun openFileForSingleQuestion(view: View) {
         var intent = Intent(Intent.ACTION_GET_CONTENT)

@@ -33,7 +33,7 @@ class PermissionUtils(private val context: Activity) {
         mHasPermissionRunnable = null
         mNoPermissionRunnable = null
         if (isPermissionsGranted(permissions)) hasPermissionDo.run()
-        else if (ActivityCompat.shouldShowRequestPermissionRationale(context, permissions.get(0))) {
+        else if (ActivityCompat.shouldShowRequestPermissionRationale(context, permissions[0])) {
             noPermissionDo.run()
         } else {
             mHasPermissionRunnable = hasPermissionDo
