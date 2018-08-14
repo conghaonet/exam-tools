@@ -73,7 +73,10 @@ inline fun<reified T : Any> File.convert2DataObject (charset: Charset = Charsets
 }
 
 inline fun ViewManager.swipyRefreshLayout() = swipyRefreshLayout {}
-
+/**
+ * SwipyRefreshLayout.()：T.()->Unit 和 ()->Unit 的区别
+ * https://www.jianshu.com/p/88a656e59c61
+ */
 inline fun ViewManager.swipyRefreshLayout(init: SwipyRefreshLayout.() -> Unit): SwipyRefreshLayout {
     return ankoView({ SwipyRefreshLayout(it) }, theme = 0, init = init)
 }
