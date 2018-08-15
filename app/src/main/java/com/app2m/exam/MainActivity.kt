@@ -24,8 +24,10 @@ private const val JSON_REQUEST_CODE_SINGLE_QUESTION = 2
 class MainActivity : BaseActivity(), AnkoLogger {
     private var questions: List<QuestionVo>? = null
     lateinit var permissionUtils : PermissionUtils
+    var btnClipboardManagerText: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        btnClipboardManagerText = "Clipboard Manager"
         MainActivityUI().setContentView(this)
         permissionUtils = PermissionUtils(this)
 
@@ -75,12 +77,12 @@ class MainActivity : BaseActivity(), AnkoLogger {
             (view as Button).text = "List<QuestionVo>"
         })
     }
-    fun openFileForSingleQuestion(view: View) {
+    fun openFileForSingleQuestion(btn: Button) {
         var intent = Intent(Intent.ACTION_GET_CONTENT)
         intent.type = "*/*"
         intent.addCategory(Intent.CATEGORY_OPENABLE)
         startActivityForResult(intent, JSON_REQUEST_CODE_SINGLE_QUESTION)
-        (view as Button).text = "QuestionVo"
+        btn.text = "QuestionVo"
     }
 
     private fun getAnswers() {
@@ -213,7 +215,7 @@ class MainActivityUI : AnkoComponent<MainActivity>, AnkoLogger {
                 }.lparams(width = matchParent, height = wrapContent)
 
                 button {
-                    text = "Clipboard Manager"
+                    text = owner.btnClipboardManagerText
                     allCaps = false
                     onClick {
                         ui.owner.readClipboardMsg()
