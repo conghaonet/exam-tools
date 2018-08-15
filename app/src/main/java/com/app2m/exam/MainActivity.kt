@@ -30,10 +30,7 @@ class MainActivity : BaseActivity(), AnkoLogger {
         btnClipboardManagerText = "Clipboard Manager"
         MainActivityUI().setContentView(this)
         permissionUtils = PermissionUtils(this)
-
-
     }
-
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
         permissionUtils.onRequestPermissionsResult(requestCode, permissions, grantResults)
     }
@@ -155,17 +152,6 @@ class MainActivity : BaseActivity(), AnkoLogger {
                         }
                     }
                 }
-/*
-                val realPath = FileUtil.getRealPath(this@MainActivity, it)
-                var file = File(realPath)
-                doAsync {
-                    questions = file.convert2DataObject()
-                    uiThread {
-                        getAnswers()
-                        toast("读取题目数据总数：${questions?.size}")
-                    }
-                }
-*/
             }
         } else if(JSON_REQUEST_CODE_SINGLE_QUESTION == requestCode && Activity.RESULT_OK == resultCode) {
             data?.data?.run {
@@ -178,16 +164,6 @@ class MainActivity : BaseActivity(), AnkoLogger {
                         }
                     }
                 }
-/*
-                val realPath = FileUtil.getRealPath(this@MainActivity, this)
-                var file = File(realPath)
-                doAsync {
-                    var questionVo = file.convert2DataObject<QuestionVo>()
-                    uiThread {
-                        toast("QuestionVo：${questionVo?.class_name}")
-                    }
-                }
-*/
             }
         }
     }

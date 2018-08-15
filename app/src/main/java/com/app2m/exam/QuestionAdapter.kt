@@ -12,40 +12,51 @@ import org.jetbrains.anko.*
  * 因为 添加 了 注解 标记， 所以 必须 补上 关键字 constructor
  * 例：class QuestionAdapter @JvmOverloads constructor(val data: List<String>)
  */
-class QuestionAdapter (val data: List<String>) : RecyclerView.Adapter<QuestionAdapter.QuestionViewHolder>() {
-    val questionUI : QuestionUI by lazy {
-        QuestionUI()
-    }
+class QuestionAdapter (val data: MutableList<String>) : RecyclerView.Adapter<QuestionAdapter.QuestionViewHolder>() {
+    private lateinit var ankoContext : AnkoContext<QuestionAdapter>
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): QuestionViewHolder {
-//        return QuestionViewHolder(TextView(parent.context))
-        return QuestionViewHolder(questionUI.createView(AnkoContext.create(parent.context, parent)))
+        ankoContext = AnkoContext.createReusable(parent.context, this)
+//        var questionUI = QuestionUI()
+//        return QuestionViewHolder(questionUI.createView(ankoContext), questionUI)
+        return QuestionViewHolder(QuestionUI())
     }
+
 
     override fun getItemCount(): Int = data.size
 
     override fun onBindViewHolder(holder: QuestionViewHolder, position: Int) {
-//        holder.view.text = data[position]
-        holder.bind(data[position])
+        holder.bind(data[position], position)
     }
 
-    inner class QuestionViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
-        fun bind(value : String) {
-            questionUI.itemValue.text = value
-        }
-    }
-}
-
-class QuestionUI : AnkoComponent<ViewGroup> {
-    lateinit var itemValue: TextView
-    override fun createView(ui: AnkoContext<ViewGroup>): View {
-        return with(ui) {
-            linearLayout {
-                lparams(width = matchParent, height = dip(48))
-                orientation = LinearLayout.HORIZONTAL
-                itemValue = textView {
-                    textSize = 16f
-                }
+    inner class QuestionViewHolder(private val ui: QuestionUI) : RecyclerView.ViewHolder(ui.createView(ankoContext)){
+        fun bind(value : String, index: Int) {
+            ui.itemValue.text = value
+            ui.itemValue.setOnClickListener {
+                itemClickListener?.onClickItem(index)
             }
         }
     }
+
+    fun setOnItemClickListener(listener: ItemClickListener) {
+        itemClickListener = listener
+    }
+    private var itemClickListener: ItemClickListener? = null
+    interface ItemClickListener {
+        fun onClickItem(position: Int)
+    }
+}
+
+class QuestionUI : AnkoComponent<QuestionAdapter> {
+    lateinit var itemValue: TextView
+    override fun createView(ui: AnkoContext<QuestionAdapter>) = ui.apply {
+        linearLayout {
+            lparams(width = matchParent, height = dip(48))
+            orientation = LinearLayout.HORIZONTAL
+            itemValue = textView {
+                text = "data"
+                textSize = 16f
+                setOnClickListener {  }
+            }
+        }
+    }.view
 }
