@@ -39,6 +39,9 @@ class SwipyRefreshLayoutUI<T> : AnkoComponent<T>, AnkoLogger {
                     isClickable = true
                     btn1 = button {
                         text = "BUTTON 1"
+                        onClick {
+                            (owner as Main2Activity).onClickBtn1()
+                        }
                     }.lparams(width= matchParent, height = wrapContent)
                     button {
                         text = "BUTTON 2"

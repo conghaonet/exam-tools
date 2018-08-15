@@ -20,6 +20,9 @@ class Main2Activity : AppCompatActivity() {
         myUI.btn1?.text = "BTN 1"
     }
 
+    fun onClickBtn1() {
+        startActivity<QuestionsActivity>()
+    }
     fun onClickBtn2(btn: Button) {
         myUI.btn1?.text = "${myUI.btn1?.text} changed by ${btn.text}"
         btn.text = "${btn.text} clicked"

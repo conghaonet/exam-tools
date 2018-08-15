@@ -22,7 +22,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
-        <activity android:name=".base.BaseActivity"></activity>
+        <activity android:name=".base.BaseActivity" />
+        <activity android:name=".QuestionsActivity"></activity>
     </application>
 
 </manifest>
