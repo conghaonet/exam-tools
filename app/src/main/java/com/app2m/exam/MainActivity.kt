@@ -22,7 +22,7 @@ private const val JSON_REQUEST_CODE_QUESTIONS = 1
 private const val JSON_REQUEST_CODE_SINGLE_QUESTION = 2
 
 class MainActivity : BaseActivity(), AnkoLogger {
-    private var questions: List<QuestionVo>? = null
+//    private var questions: List<QuestionVo>? = null
     lateinit var permissionUtils : PermissionUtils
     var btnClipboardManagerText: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -36,19 +36,21 @@ class MainActivity : BaseActivity(), AnkoLogger {
     }
     fun readJsonInAssetsFile() {
         doAsync {
-            assets.open("sampledata.json").bufferedReader().use {
-                var data = StringBuilder("")
-                var line = it.readLine()
+            assets.open("sampledata.json").bufferedReader().use { reader ->
+                val data = StringBuilder("")
+                var line = reader.readLine()
                 while (line != null) {
                     data.append(line.trim())
-                    line = it.readLine()
+                    line = reader.readLine()
                 }
-                it.close()
+                reader.close()
                 val typeToken = object : TypeToken<List<QuestionVo>>() {}.type
-                questions = Gson().fromJson(data.toString(), typeToken)
-                uiThread {
-                    getAnswers()
-                    toast("读取题目数据总数：${questions?.size}")
+                val questions: List<QuestionVo>? = Gson().fromJson(data.toString(), typeToken)
+                questions?.let { list ->
+                    uiThread {
+                        toast("读取题目数据总数：${list.size}")
+                        getAnswers(list)
+                    }
                 }
             }
         }
@@ -57,9 +59,9 @@ class MainActivity : BaseActivity(), AnkoLogger {
         val cm = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         if(cm.hasPrimaryClip()) {
             val clip = cm.primaryClip
-            var clipDescription: ClipDescription? = clip?.description
-            var clipLabel: CharSequence? = clipDescription?.label
-            var clipText: CharSequence? = clip?.getItemAt(0)?.text
+            val clipDescription: ClipDescription? = clip?.description
+            val clipLabel: CharSequence? = clipDescription?.label
+            val clipText: CharSequence? = clip?.getItemAt(0)?.text
             toast("label: $clipLabel \ntext: $clipText")
         } else {
             toast("ClipboardManager is empty!")
@@ -67,7 +69,7 @@ class MainActivity : BaseActivity(), AnkoLogger {
     }
     fun openFileForQuestions(view: View) {
         permissionUtils.checkStoragePermission(Runnable {
-            var intent = Intent(Intent.ACTION_GET_CONTENT)
+            val intent = Intent(Intent.ACTION_GET_CONTENT)
             intent.type = "*/*"
             intent.addCategory(Intent.CATEGORY_OPENABLE)
             startActivityForResult(intent, JSON_REQUEST_CODE_QUESTIONS)
@@ -75,40 +77,41 @@ class MainActivity : BaseActivity(), AnkoLogger {
         })
     }
     fun openFileForSingleQuestion(btn: Button) {
-        var intent = Intent(Intent.ACTION_GET_CONTENT)
+        val intent = Intent(Intent.ACTION_GET_CONTENT)
         intent.type = "*/*"
         intent.addCategory(Intent.CATEGORY_OPENABLE)
         startActivityForResult(intent, JSON_REQUEST_CODE_SINGLE_QUESTION)
         btn.text = "QuestionVo"
     }
 
-    private fun getAnswers() {
-        questions?.let {
+    private fun getAnswers(questions: List<QuestionVo>?) {
+        questions?.let { list ->
             doAsync {
-                for(index in it.indices) {
-                    var questionVo = it[index]
+                for(index in list.indices) {
+                    val questionVo = list[index]
                     var url = questionVo.source.tech_info.source.location
                     url = url.replace(REF_PATH_TAG, REF_PATH, true)
                     val response = URL(url).readText()
-                    var correctAnswers = parseXML(response)
+                    val correctAnswers = parseXML(response)
                     questionVo.correctResponse = QuestionVo.CorrectResponse(correctAnswers)
                 }
                 uiThread {
                     toast("答案获取完成")
+                    startActivity<QuestionsActivity>("questions" to questions)
                 }
             }
         }
     }
 
     private fun parseXML(result: String): List<String> {
-        var results = ArrayList<String>()
-        var factory = XmlPullParserFactory.newInstance()
-        var xmlParser = factory.newPullParser()
+        val results = ArrayList<String>()
+        val factory = XmlPullParserFactory.newInstance()
+        val xmlParser = factory.newPullParser()
         try {
             xmlParser.setInput(StringReader(result))
             var eventType = xmlParser.eventType
             while (eventType != XmlPullParser.END_DOCUMENT){
-                var nodeName = xmlParser.name
+                val nodeName = xmlParser.name
                 when(eventType){
                     XmlPullParser.START_TAG -> {
                         if ("correctResponse" == nodeName){
@@ -140,27 +143,32 @@ class MainActivity : BaseActivity(), AnkoLogger {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        if(JSON_REQUEST_CODE_QUESTIONS == requestCode && Activity.RESULT_OK == resultCode) {
+        if (Activity.RESULT_OK == resultCode) {
             data?.data?.run {
-                FileUtil.getRealPath(this@MainActivity, this)?.let {
-                    var file = File(it)
+                FileUtil.getRealPath(this@MainActivity, this)?.let { fileStr ->
+                    val file = File(fileStr)
                     doAsync {
-                        questions = file.convert2DataObject()
-                        uiThread {
-                            getAnswers()
-                            toast("读取题目数据总数：${questions?.size}")
-                        }
-                    }
-                }
-            }
-        } else if(JSON_REQUEST_CODE_SINGLE_QUESTION == requestCode && Activity.RESULT_OK == resultCode) {
-            data?.data?.run {
-                FileUtil.getRealPath(this@MainActivity, this)?.let {
-                    var file = File(it)
-                    doAsync {
-                        var questionVo = file.convert2DataObject<QuestionVo>()
-                        uiThread {
-                            toast("QuestionVo：${questionVo?.class_name}")
+                        when(requestCode) {
+                            //题目集合
+                            JSON_REQUEST_CODE_QUESTIONS -> {
+                                val questions: List<QuestionVo>? = file.convert2DataObject()
+                                uiThread {
+                                    questions?.let { list ->
+                                        getAnswers(list)
+                                        toast("读取题目数据总数：${list.size}")
+                                        return@uiThread
+                                    }
+                                    toast("试卷解析错误！！")
+                                }
+                            }
+                            //单个题目
+                            JSON_REQUEST_CODE_SINGLE_QUESTION -> {
+                                val questionVo = file.convert2DataObject<QuestionVo>()
+                                uiThread {
+                                    toast("QuestionVo：${questionVo?.class_name}")
+                                }
+
+                            }
                         }
                     }
                 }
