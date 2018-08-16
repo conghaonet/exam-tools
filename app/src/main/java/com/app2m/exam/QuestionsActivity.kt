@@ -42,6 +42,17 @@ class QuestionsActivityUI: AnkoComponent<QuestionsActivity>, AnkoLogger {
                         }
                     }
                 }
+                button {
+                    text = "remove first element"
+                    onClick {
+                        owner.questions?.let {
+                            if(!it.isEmpty()) {
+                                it.removeAt(0)
+                                owner.adapter.notifyDataSetChanged()
+                            }
+                        }
+                    }
+                }
                 recyclerView {
                     layoutManager = LinearLayoutManager(this.context, LinearLayoutManager.VERTICAL,false)
                     adapter = owner.adapter
